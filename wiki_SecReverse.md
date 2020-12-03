@@ -2,16 +2,25 @@
 - https://www.pelock.com/articles/reverse-engineering-tools-review    //Reverse engineering tools review 逆向工具测评
 - https://down.52pojie.cn/    //吾爱破解爱盘工具包。W:tool.pediy.com/;--
 - https://www.peerlyst.com/posts/resource-learning-how-to-reverse-malware-a-guide    //恶意软件逆向指南和工具的集合
-- https://github.com/alphaSeclab/awesome-reverse-engineering    //Reverse Engineering Resources About All Platforms(Windows/Linux/macOS/Android/iOS/IoT)3000+逆向资源合集.
-### 反调试
+- https://github.com/alphaSeclab/awesome-reverse-engineering    //Reverse Engineering Resources About All Platforms(Windows/Linux/macOS/Android/iOS/IoT)3000+逆向资源合集。
+- https://github.com/slimm609/checksec.sh    //bash脚本，用于检查可执行文件的属性。goodjob。
+## 反调试检测
 - https://github.com/LloydLabs/wsb-detect    //C。检测是否为Windows沙盒。
+### 终端防护检测
+- https://github.com/gh0stkey/avList    //杀软进程对应杀软名称。G:/r00tSe7en/get_AV;--
+- https://github.com/PwnDexter/SharpEDRChecker    //检查当前程序进程种杀软等防护软件列表。G:/PwnDexter/Invoke-EDRChecker;--
+- https://github.com/uknowsec/SharpAVKB    //Windows杀软对比和补丁号对比。G:/Ch1ngg/GetWindowsKernelExploitsKB;--
+- https://github.com/3had0w/Antivirus-detection    //cobaltstrike插件。检测当前进程并对杀软进行标注。G:/ars3n11/Aggressor-Scripts;--
 ### 程序调试管理
 - https://www.cheatengine.org    //CE（Cheat Engine）是一款内存修改编辑工具，程序函数监控，配合Ultimap功能食用游戏魔改更佳。
 - http://www.angusj.com/resourcehacker    //Windows二进制文件浏览编辑 (*.exe; *.dll; *.scr; etc) 和资源文件修改 (*.res, *.mui)图标属性等。Resource Hacker类似于于Restorator文件资源修改软件。
 - https://github.com/euphrat1ca/PeDoll    //C++。基于inlineHook技术的软件分析工具，C/S架构（PeDollc/PeDolls）。
 - https://bbs.ichunqiu.com/thread-16846-1-1.html    //intro。PeDoll 调戏木马病毒的正确姿势-正式篇
 - https://github.com/everdox/InfinityHook    //C++。挂钩系统调用，上下文切换，页面错误等。
-## 小程序安全
+- https://github.com/fireeye/capa    //Py。Windows下程序执行时所产生的操作。goodjob。
+## Web打包应用安全
+- https://github.com/rtcatc/Packer-Fuzzer    //针对Webpack等前端打包工具所构造的网站进行快速、高效安全检测的扫描工具。poc sir。
+### 小程序安全
 - https://github.com/sjatsh/unwxapkg    //Go。微信小程序反编译。G:/oujunke/UnWechatApp;G:/xuedingmiaojun/wxappUnpacker;G:/leo9960/wechat-app-unpack;
 - https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html    /微信小程序开发工具
 - https://github.com/Cherrison/CrackMinApp    //C#,Node.js。(反编译微信小程序)一键获取微信小程序源码(傻瓜式操作)。goodjob。
@@ -22,15 +31,15 @@
 - https://www.hex-rays.com    //IDA pro反汇编工具。商业版。W:youtu.be/qCQRKLaz2nQ;
 - https://github.com/xrkk/awesome-ida    //IDA Pro有关的资源收集
 - https://github.com/onethawt/idaplugins-list    //IDA Plugins插件集合
-- https://github.com/dark-lbp/vxhunter    //Py。利用IDA Pro 7.x与Ghidra 9.0.1和VxWorks对硬件设备进行调试
-- https://github.com/NationalSecurityAgency/ghidra    //Java。NSA出品的软件逆向动态调试框架Ghidra，类比IDA。
+- https://github.com/PAGalaxyLab/vxhunter    //Py。一个用于VxWorks嵌入式设备分析的工具集，包含固件分析，串口调试，通过IDA Pro 7.x 、Ghidra 9.x 、Radare2 插件脚本对VxWorks设备调试。
+- https://github.com/NationalSecurityAgency/ghidra    //Java。NSA出品的软件逆向动态调试框架Ghidra。类IDA架构。
 - https://github.com/ghidraninja/ghidra_scripts    //Py。Ghidra的Binwalk\Yara联动插件。
 - https://hackaday.io/project/172292-introduction-to-reverse-engineering-with-ghidra    //Intro。Ghidra教程。
 - https://www.kanxue.com/book-brief-64.htm    //Ghidra操作手册。商业版。
-- https://github.com/angr/angr    //Py。二进制分析工具,支持动态符号执行和静态分析。3k。
 - https://github.com/radare/radare2    //C。radare2是基于Capstone的跨平台逆向工程平台。包括反汇编、分析数据、打补丁、比较数据、搜索、替换、虚拟化等。10k。goodjob。
 - https://github.com/radareorg/cutter    //C++。基于QT的radare2框架GUI。5k。
-- https://github.com/armijnhemel/binaryanalysis-ng    //Py3。Binary Analysis Toolkit（BAT）。对固件、二进制、pwn等文件进行递归式解压缩实现识别与逆向。goodjob,0.1k。
+- https://github.com/armijnhemel/binaryanalysis-ng    //Py3。Binary Analysis Toolkit（BAT），对固件、二进制、pwn等文件进行递归式解压缩实现识别与逆向。goodjob。
+- https://github.com/angr/angr    //Py。二进制分析工具,支持动态符号执行和静态分析。3k。
 - https://github.com/x64dbg/x64dbg    //C++。Windows调试工具x64dbg/x32dbg。greatjob。34k。W:immunityinc.com //Immunity Debugger;P:/32位汇编分析调试器Ollydbg;G:/horsicq/x64dbg-Plugin-Manager;--
 - https://github.com/ReFirmLabs/binwalk    //Py。固件、二进制、pwn等文件自动化识别与逆向，支持多插件配置。goodjob,5k。
 ### 查脱壳操作
@@ -40,7 +49,7 @@
 - https://www.jianshu.com/p/6a504c7928da    //Android常见App加固厂商脱壳方法的整理
 - https://github.com/hluwa/FRIDA-DEXDump    //py。暴力搜索 dex035，脱壳dump内存中的dex。
 ### PE分析操作
-- https://github.com/horsicq/Detect-It-Easy    //C。官网‘ntinfo.biz’，PE侦壳工具可以查看EXE/DLL文件编译器信息、是否加壳、入口点地址、输出表/输入表等信息。W:exeinfo.xn.pl;--
+- https://github.com/horsicq/Detect-It-Easy    //C。官网```ntinfo.biz```，PE侦壳工具可以查看EXE/DLL文件编译器信息、是否加壳、入口点地址、输出表/输入表等信息。W:exeinfo.xn.pl;--
 - https://ntcore.com/?page_id=388    //PE32 & PE64编辑工具，支持.NET文件格式。
 ### 汇编反编译
 - https://github.com/blackberry/pe_tree    //Py,QT。PE逆向，树形结构图查看PE结构、复制内存中的PE文件并执行导入重构，可作为IDAPython插件加载。
@@ -72,7 +81,7 @@
 - https://securityoversimplicity.wordpress.com/2017/04/29/android-reversing-part-2-tools/    //
 - https://www.andreafortuna.org/2019/07/18/reverse-engineering-and-penetration-testing-on-android-apps-my-own-list-of-tools/    //
 - https://www.pd521.com    //逆向未来，android逆向菜鸟速参手册完蛋版，AndroidKiller安卓逆向工具。P:/apk改之理ApkIDE;--
-- http://www.gda.wiki:9090/    //Java交互式反编译器、逆向分析器。G:charles2gan/GDA-android-reversing-Tool;--
+- http://www.gda.wiki:9090/    //Java。全交互式的现代反编译器。G:charles2gan/GDA-android-reversing-Tool;--
 - https://github.com/iBotPeaches/Apktool    //java。Android逆向apk反编译工具.8K.
 - https://github.com/UltimateHackers/Diggy    //Bash。基于apktool反编译后正则匹配从 Apk 文件中提取 URLs 的工具，apkurl。simple
 - https://github.com/TheKingOfDuck/ApkAnalyser    //py。提取安卓应用敏感信息。

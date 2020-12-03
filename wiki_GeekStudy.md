@@ -2,29 +2,31 @@
 - https://arxiv.org    //康奈尔大学（Cornell University）开放文档
 - https://github.com/sindresorhus/awesome    //awesome系列
 - http://www.owasp.org.cn/owasp-project/owasp-things    //OWASP项目
+- https://github.com/irsdl/top10webseclist/    //十大网络黑客技术列表。
 - https://github.com/SecWiki/sec-chart    //安全思维导图集合。G：Mayter/sec-charts;--
 - https://github.com/Ascotbe/Osmographic-brain-mapping    //安全思维脑图。ctf/web/二进制/ai/区块链/业务/主机/社工/移动/无线/运维/风控
 - https://github.com/tom0li/collection-document    //安全部/攻防/内网/Web/apt/漏洞预警/开发/Bug Bounty/SDL/SRC
 - https://github.com/secure-data-analysis-data-sharing/data-analysis    //资料分为安全态势、攻防对抗、数据分析、威胁情报、应急响应、物联网安全、企业安全建设、其他书籍八部分
 - https://github.com/hongriSec/AI-Machine-Learning-Security    //机器学习算法、AI模型、渗透测试工具
 - https://github.com/bt3gl/Pentesting-Toolkit    //CTF、逆向、移动端、网络安全、web安全、工具使用。welljob。
-- http://paper.tidesec.com/    //免杀bypass、红蓝ctf、ics、iot、移动、应急响应、代码审计、工具设计
-## 安全基础科普培训
+- http://paper.tidesec.com/    //远控免杀 Wiki、红蓝对抗 Wiki、工控安全Wiki、IoT物联网安全wiki、移动安全Wiki、应急响应Wiki、代码审计Wiki。
+- https://null-byte.wonderhowto.com    //msf/fb/wifi/pass/取证/social/信息收集
+## 安全知识库
+### 安全大会资料
+- https://www.hackinn.com/search/?keyword=    //资料站。W:srxh1314.com/;W:infocon.org/;W:vipread.com/;--
+- http://www.irongeek.com/i.php?page=security/hackingillustrated    //国内外安全大会相关视频与文档
+- https://github.com/knownsec/KCon    //KCon大会文章PPT。P:/blackhat黑帽大会;--
+## 安全基础培训
 - https://book.yunzhan365.com/umta/rtnp/mobile/index.html    //网络安全科普小册子
 - http://sec.cuc.edu.cn/huangwei/textbook/ns/    //网络安全电子版教材。中传信安课程网站
 - https://ilearningx.huawei.com/portal/#/portal/EBG/26    //华为e学云。安全科普
 - https://keenlab.tencent.com/zh/index.html    //腾讯科恩实验室
 - https://github.com/ym2011/SecurityManagement    //分享安全管理体系、ISO27001、等级保护、安全评审的经验。
 - https://space.bilibili.com/37422870    //安全入门视频
-- https://space.bilibili.com/406898187/channel/detail?cid=85655    //安全帮内网高级加固课程
 - https://github.com/tiancode/learn-hacking    //入门网络安全。G:/Bypass007/Learn-security-from-0;--
-- https://null-byte.wonderhowto.com    //msf/fb/wifi/pass/取证/social/信息收集
 - https://github.com/knownsec/RD_Checklist    //知道创宇技能列表
 - https://github.com/ChrisLinn/greyhame-2017    //灰袍技能书2017版本
-### 安全大会资料
-- https://www.hackinn.com/search/?keyword=    //资料站。W:srxh1314.com/;W:infocon.org/;W:vipread.com/;--
-- http://www.irongeek.com/i.php?page=security/hackingillustrated    //国内外安全大会相关视频与文档
-- https://github.com/knownsec/KCon    //KCon大会文章PPT。P:/blackhat黑帽大会;--
+- https://www.butian.net/School/content?id=307/    //移动通信网络渗透测试科普培训。
 ### 使用手册指南
 - https://www.cnblogs.com/backlion/p/10616308.html    //Coablt strike官方教程中文译版本
 - https://github.com/aleenzz/Cobalt_Strike_wiki    //Cobalt Strike系列 教程使用
@@ -52,40 +54,42 @@
 - https://github.com/ihack4falafel/OSCE    //
 - https://github.com/dhn/OSCE    //
 - https://github.com/73696e65/windows-exploits    //
-## 攻防资源学习
+## 攻防学习资源
 - https://attack.mitre.org    //mitre科技机构对攻击技术的总结wiki，攻击矩阵模型。
 - https://github.com/infosecn1nja/awesome-mitre-attack    //Mitre ATT&CK™框架资源收集。Web:huntingday.github.io //MITRE | ATT&CK-CN 中文站;G:/lengjibo/ATT-CK-CN //attck实操实验记录;W:vulhub.org.cn/attack //清华林妙倩 att ck汉化;G:/NomadCN112/Chinese-translation-ATT-CK-framework;--
-- https://github.com/Micropoor/Micro8    //Microporor高级攻防100课。goodjob。PHP安全新闻早8点课程
+- https://github.com/Micropoor/Micro8    //Microporor高级攻防100课。goodjob。PHP安全新闻早8点课程。
 - https://github.com/meitar/awesome-cybersecurity-blueteam    // A curated collection of awesome resources, tools, and other shiny things for cybersecurity blue teams.
 - https://bitvijays.github.io    //infosec知识总结。goodjob。
-- https://github.com/Mel0day/RedTeam-BCS    //BCS（北京网络安全大会）2019 红队行动会议重点内容，详细步骤。goodjob。
+- https://github.com/Mel0day/RedTeam-BCS    //BCS（北京网络安全大会）2019 红队行动会议重点内容、详细步骤。goodjob。
 - https://github.com/Snowming04/The-Hacker-Playbook-3-Translation    //[译] 渗透测试实战第三版(红队版)The Hacker Playbook 3
 - https://github.com/OWASP/OWASP-Testing-Guide-v5    //OWASP 发布的渗透测试指南文档
 - https://github.com/jeansgit/RedTeam    //RedTeam资料收集整理。红蓝对抗资料分享，红蓝对抗相关图片，内网安全渗透总结
 - https://github.com/yeyintminthuhtut/Awesome-Red-Teaming    //优秀红队资源列表
 - https://github.com/Kinimiwar/Penetration-Testing    //渗透测试方向优秀资源收集
 - https://github.com/jshaw87/Cheatsheets    //渗透测试/安全秘籍/笔记
-- http://www.pentest-standard.org/index.php/Pre-engagement    //渗透测试标准-渗透项目实施前的互动。项目实施前
+- http://www.pentest-standard.org/index.php/Pre-engagement    //渗透测试标准-渗透项目实施前的互动。
 - https://github.com/r35tart/Penetration_Testing_Case    //攻防测试案例
-### 学习社工综合利用
+- https://github.com/EvilAnne/Violation_Pnetest    //渗透红线Checklist，渗透常见工具与环境配置安全意识注意项。
+### 学习社工利用
 - https://www.freebuf.com/articles/102500.html    //黑客讲述渗透Hacking Team全过程（详细解说）
 - https://github.com/myselfexplorer/hackingLibrary    //社工大佬的笔记手册
-- https://payloads.online/archivers/2019-05-21/1    //鱼叉攻击-尝试。qingxuan
+- https://payloads.online/archivers/2019-05-21/1    //鱼叉攻击-尝试。qingxuan。
 - https://github.com/shegongbook/shegonganli    //社工案例
-### 学习Web漏洞攻防
+### 学习Web安全攻防
+- https://kennel209.gitbooks.io/owasp-testing-guide-v4    //OWASP 安全测试指南 v4.0/Owasp Testing Guide v4
 - https://portswigger.net/web-security    //burpsuite官方web安全材料与实验室。testjob。
-- https://github.com/irsdl/top10webseclist/    //十大网络黑客技术列表
 - https://wizardforcel.gitbooks.io/web-hacking-101/content    //Web Hacking 101 中文版
 - https://websec.readthedocs.io/zh/latest/    //Web安全学习笔记
 - https://techvomit.net/web-application-penetration-testing-notes/    //web渗透测试笔记
 - https://github.com/qazbnm456/awesome-web-security    //Web安全资料和资源列表
 - https://www.lynda.com/JavaScript-tutorials/What-server-side-JavaScript-injection-SSJI/797717/5025838-4.html    //SSJI服务的JavaScript注入
 - https://www.imperva.com/blog/nosql-ssji-authentication-bypass/    //Imperva WAF墙公司关于，SSJI服务的JavaScript注入
-### 学习内网安全后渗透
+### 学习内网后渗透
+- https://space.bilibili.com/406898187/channel/detail?cid=85655    //哔哩哔哩 安全帮 内网高级加固课程
 - https://attack.mitre.org/wiki/Lateral_Movement    //mitre机构对横向移动的总结
 - https://github.com/l3m0n/pentest_study    //从零开始内网渗透学习。G:/Ridter/Intranet_Penetration_Tips;-
 - https://github.com/uknowsec/Active-Directory-Pentest-Notes    //个人域渗透学习笔记，配合域环境搭建。goodjob。
-- https://klionsec.github.io/2016/08/10/ntlm-kerberos/    //深刻理解windows安全认证机制 [ntlm & Kerberos]。W:彻底理解Windows认证 - 议题解读;公众号：域渗透 | Kerberos攻击速查表;P:/Kerberos的白银票据详解/Kerberos的黄金票据详解;--
+- https://klionsec.github.io/2016/08/10/ntlm-kerberos/    //深刻理解windows安全认证机制 [ntlm & Kerberos]。W:彻底理解Windows认证 - 议题解读;公众号:域渗透 | Kerberos攻击速查表;P:/Kerberos的白银票据详解/Kerberos的黄金票据详解;--
 - https://github.com/daikerSec/windows_protocol    //TechTeach。针对内网渗透的常见协议(如kerberos,ntlm,smb,ldap,netbios等)进行分析，介绍相关漏洞分析以及漏洞工具分析利用。P:kerberosGui;--
 - https://daiker.gitbook.io/windows-protocol    //内网域基础协议分析系列文章。本系列文章将针对内网渗透的常见协议Windows凭证利用(如kerbeos,ntlm,smb,ldap等)进行协议分析，相关漏洞分析以及漏洞工具分析利用。
 - https://github.com/infosecn1nja/AD-Attack-Defense    //AD活动目录攻击链与防御
@@ -110,7 +114,7 @@
 - https://github.com/CTFd/CTFd    //py2。基于flask的动态Capture The Flag framework
 - https://github.com/zhl2008/awd-platform    //AWD攻防比赛平台。
 - https://github.com/wuhan005/Asteroid/    //C#。CTF AWD 实时 3D 攻击大屏
-- https://github.com/vidar-team/Cardinal/    //Go。CTF⛳️ AWD (Attack with Defense) 线下赛平台
+- https://github.com/vidar-team/Cardinal/    //Go。CTF ⛳️ AWD (Attack with Defense) 线下赛平台
 - https://github.com/gabemarshall/microctfs    //SHELL,JS。小型ctf镜像docker
 - https://github.com/giantbranch/pwn_deploy_chroot    //Py。部署多个pwn题到一个docker容器中
 - https://github.com/PELock/CrackMeZ3S-CTF-CrackMe-Tutorial    //C++。为CTF比赛编写CrackMe软件。
@@ -123,13 +127,15 @@
 - https://github.com/NEALWE/AWD_FrameWork    //Py3。awd框架，比赛常用脚本。
 - https://github.com/Wfzsec/awd_attack_framework    //PHP。AWD(Attack With Defense,攻防兼备)常用脚本+不死马+crontab+防御方法。
 ### CTF密码学
-- https://github.com/0Chencc/CTFCrackTools    //kotlin与java。CTF工具框架，支持Crypto，Mis等。支持python插件。
+- https://github.com/0Chencc/CTFCrackTools    //kotlin与java。CTF工具框架，支持Crypto，Mis等。支持python插件。G:/Acmesec/CTFCrackTools-V2;--
 - https://github.com/guyoung/CaptfEncoder    //Nodejs。基于Electron。跨平台网络安全工具套件，提供网络安全相关编码转换、古典密码、密码学、特殊编码等工具，并聚合各类在线工具。goodjob。
 - https://github.com/gchq/CyberChef    //JS。反混淆，密码解密工具。
 - https://github.com/3summer/CTF-RSA-tool    //Py2。RSA基本题型ctf套路。
 - https://github.com/mufeedvh/basecrack    //Py3。全base编码检测。GOODJOB。
 ### CTF利用Pwn
-- https://github.com/Gallopsled/pwntools    //Py。pwn类型，二进制利用框架
+- http://www.gnu.org/software/gdb/download/    //GDB: The GNU Project Debugger。greatjob。G:/hellogcc/100-gdb-tips;G:/cyrus-and/gdb-dashboard;G:/cs01/gdbgui;--
+- https://github.com/pwndbg/pwndbg    //Py。GDB插件。
+- https://github.com/Gallopsled/pwntools    //Py。pwn-tools二进制利用框架
 - https://github.com/ChrisTheCoolHut/Zeratool    //Py。pwn类型，二进制利用框架
 - https://github.com/ChrisTheCoolHut/Rocket-Shot    //Py。pwn利用，自动攻击脚本
 ## 二进制利用
@@ -167,6 +173,10 @@
 - http://old-releases.ubuntu.com/releases/    //Ubuntu历史镜像
 ### 离线靶场学习
 - https://github.com/WebGoat/WebGoat    //Java。一键jar包web安全实验靶场
+- https://github.com/ethicalhack3r/DVWA    //web安全实验靶场。新手指南：DVWA-1.9全级别教程
+- http://www.itsecgames.com    //bWAPP,bee-box。包含owasp10，心脏滴血hearbleed等环境。noupdate
+- https://github.com/bkimminich/juice-shop    //常见web安全实验靶场市场。G:/78778443/permeate;G:/gh0stkey/DoraBox;G:/stamparm/DSVW;G:/amolnaik4/bodhi;--
+- https://github.com/Safflower/Solve-Me    //php。韩国CTF代码审计靶场
 - https://github.com/Audi-1/sqli-labs    //PHP。基于SQLite的sql注入学习靶场。/lcamry/sqli-labs;--
 - https://github.com/Charlie-belmer/vulnerable-node-app    //Node.js。Mongodb Nosql注入靶场。P:NoSql数据库之漏洞利用方法总结;--
 - https://github.com/virusdefender/ssrf-app    //Py。服务端请求伪造ssrf靶场实例
@@ -175,19 +185,18 @@
 - https://github.com/c0ny1/xxe-lab    //一个包含php，Java。python，C#等各种语言版本的XXE漏洞Demo
 - https://github.com/Go0s/LFIboomCTF    //本地文件包含漏洞&&PHP利用协议&&实践源码
 - https://github.com/incredibleindishell/CORS-vulnerable-Lab    //PHP。与COSR配置错误相关的漏洞代码靶场
-- https://github.com/ethicalhack3r/DVWA    //web安全实验靶场。新手指南：DVWA-1.9全级别教程
-- http://www.itsecgames.com    //bWAPP,bee-box。包含owasp10，心脏滴血hearbleed等环境。noupdate
-- https://github.com/bkimminich/juice-shop    //常见web安全实验靶场市场。G:/78778443/permeate;G:/gh0stkey/DoraBox;G:/stamparm/DSVW;G:/amolnaik4/bodhi;--
-- https://github.com/Safflower/Solve-Me    //php。韩国代码审计ctf靶场源码
-- https://github.com/0c34/govwa    //Go。Go Vulnerable Web Application，代码审计。
-- https://github.com/secvulture/dvta    //客户端C/S架构靶场
-- https://github.com/OWASP/igoat    //适用于ios应用程序测试和安全性的学习工具
-- https://github.com/prateek147/DVIA-v2    //适用于ios应用程序测试和安全性的学习工具
-- https://github.com/abhi-r3v0/EVABS    //C++。Android靶场
-- https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/    //一个用于Linux提权练习的虚拟机文件
+- https://github.com/0c34/govwa    //Go。Go Vulnerable Web Application，golang应用审计。
+- https://github.com/DamnVulnerableCryptoApp/DamnVulnerableCryptoApp    //TypeScript。弱加密程序应用，密码破解审计靶场。
+- https://github.com/secvulture/dvta    //客户端C/S架构应用审计靶场。
+- https://github.com/OWASP/igoat    //适用于ios应用程序审计靶场。
+- https://github.com/prateek147/DVIA-v2    //适用于ios应用审计靶场。
+- https://github.com/abhi-r3v0/EVABS    //C++。Android应用审计靶场。
+- https://github.com/OWASP/NodeGoat    //NodeJS应用审计靶场。
+- https://github.com/Charmve/BLE-Security-Attack-Defence    //蓝牙通讯审计靶场。
+- https://in.security/lin-security-practise-your-linux-privilege-escalation-foo/    //Linux提权练习虚拟机文件
 - https://github.com/rapid7/metasploitable3    //metasploit练习系统
-- https://github.com/rapid7/metasploit-vulnerability-emulator    //perl。metasploit模拟环境，练习操作
-- https://github.com/madhuakula/kubernetes-goat/    //容器编排引擎Kubernetes靶场。P:/Bust-a-kube;--
+- https://github.com/rapid7/metasploit-vulnerability-emulator    //perl。metasploit模拟环境
+- https://github.com/madhuakula/kubernetes-goat/    //容器编排引擎Kubernetes审计靶场。P:/Bust-a-kube;--
 ### 在线靶场学习
 - https://www.wechall.net    //世界知名ctf汇总交流网站
 - https://www.hackthebox.eu    //欧洲HTB靶场，在线真实环境。商业部。

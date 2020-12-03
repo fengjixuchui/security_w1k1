@@ -11,11 +11,10 @@
 ### burp协议分析
 - https://github.com/lyxhh/lxhToolHTTPDecrypt/    //Js。Android/iOS协议分析利用
 - https://github.com/mr-m0nst3r/Burpy    //Web端JS加密算法调试解密
-- https://github.com/c0ny1/jsEncrypter    //Web前端加密Fuzz插件
+- https://github.com/c0ny1/jsEncrypter    //Web前端加密协议Fuzz爆破
 ### burp绕过
-- https://github.com/TheKingOfDuck/burpFakeIP    //Py。IP修改伪造
+- https://github.com/TheKingOfDuck/burpFakeIP    //Py。IP修改伪造。
 - https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension/    //Py。使用AWS API Gateway在每个请求上更改IP访问
-- https://github.com/c0ny1/jsEncrypter    //用于加密传输爆破的Burp Suite插件
 - https://github.com/nccgroup/BurpSuiteHTTPSmuggler    //使用几种技巧绕过WAF
 - https://github.com/c0ny1/chunked-coding-converter    //用于http传送过程的分块技术，可绕WAF等防护设备。
 ### burp利用探测
@@ -27,6 +26,7 @@
 - https://github.com/portswigger/http-request-smuggler    //http请求走私
 - https://github.com/yandex/burp-molly-pack    //XXE、SSRF漏洞利用探测。
 ## Nmap/Masscan拓展插件相关工具
+- https://raw.githubusercontent.com/nmap/nmap/master/nmap-service-probes    //Nmap指纹库，资产识别指针、配置文件。greatjob。
 - https://xz.aliyun.com/t/6002    //如何修改nmap， 重新编译，绕过IDS流量检测。G:/al0ne/Nmap_Bypass_IDS;--
 - https://github.com/Ullaakut/nmap    //Go。Nmap调用库go
 - https://github.com/savon-noir/python-libnmap    //Py。nmap调用库python
@@ -49,8 +49,8 @@
 - https://github.com/Yukinoshita47/Yuki-Chan-The-Auto-Pentest    //集成子域名枚举、nmap、waf指纹识别等模块的web应用扫描器
 - https://github.com/ring04h/wyportmap    //调用nmap目标端口扫描+系统服务指纹识别
 - https://github.com/cloudflare/flan    //Py。cloudflare基于nmap开发的漏洞检测工具
-- https://github.com/offensive-security/masscan-web-ui/    //PHP。Masscan WebGui
-## kali环境拓展插件相关工具
+- https://github.com/offensive-security/masscan-web-ui/    //PHP。Masscan WebGui。
+## Kali环境拓展插件相关工具
 - https://github.com/Jack-Liang/kalitools/    //Kali Linux工具文档翻译，汉化kali
 - https://github.com/secforce/sparta    //Py。界面化，联动Nmap、Nikto、Hydra等工具
 - https://github.com/skavngr/rapidscan    //Py3。simple，联动kali下工具，漏洞扫描工具
@@ -60,14 +60,15 @@
 - https://github.com/se55i0n/Awvs_Nessus_Scanner_API    //扫描器Awvs 11和Nessus 7 Api利用脚本
 - https://github.com/DanMcInerney/msf-autoshell    //配合nessus扫描结果进行msf攻击
 - https://github.com/MooseDojo/apt2    //联动nmap、nessus等工具进行安全测试
-## awvs拓展插件相关工具
+## AWVS拓展插件相关工具
 - awvs下载    //fahai.org;--
 - https://www.52pojie.cn/thread-214819-1-1.html    //awvs10.5开发框架破解版。商业版。
+- https://github.com/l3m0n/awvs_190703137    //Py。Linux版awvs
+- https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS    //AWVS桌面版。
 - https://github.com/gatlindada/awvs-decode/    //15行代码解码awvs插件解密。G:/fnmsd/awvs_script_decode;
 - https://github.com/NS-Sp4ce/AWVS11.X-Chinese-Version    //JS。awvs11汉化包
-- https://github.com/l3m0n/awvs_190703137    //Py。Linux版awvs
 - https://github.com/grayddq/PublicSecScan    //Py。调用awvsAPI对WEB资产进行分布式WEB安全扫描，发现web环境下常规的一些安全漏洞
-## sqlmap拓展插件相关工具
+## Sqlmap拓展插件相关工具
 - https://github.com/codewatchorg/sqlipy    //burp与sqlmap联动插件
 - https://github.com/RicterZ/websocket-injection    //Py3。WebSocket 中转注入工具
 - https://github.com/Hood3dRob1n/SQLMAP-Web-GUI    //PHP。sqlmap的web gui
@@ -79,7 +80,7 @@
 - https://github.com/zt2/sqli-hunter    //基于sqlmapapi，ruby编写的漏洞代理型检测工具
 - https://github.com/jesuiscamille/AutoSQLi    //利用DorkNet，Googler， Ddgr， WhatWaf 和 sqlmap自动注入
 - 公众号：记一次渗透棋牌APP实录    //利用sqlmap --technique S --os-shell栈查询(stack queries)进行命令执行
-## metasploit拓展插件相关工具
+## Metasploit拓展插件相关工具
 - https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/DeepExploit    //结合机器学习与msf的全自动测试工具
 - https://github.com/r00t-3xp10it/Meterpreter_Paranoid_Mode-SSL    //一个可以创建SSL/TLS shell连接的脚本
 - https://github.com/DanMcInerney/msf-netpwn    //等待msf的session，并自动提为域管理
@@ -94,33 +95,35 @@
 - https://github.com/Zerx0r/Kage    //VueJS。图形化MSF的界面GUI，Session Handler控制。goodjob。
 ## Empire拓展插件相关工具
 - https://paper.tuisec.win/detail/f3dce68a0b4baaa    //利用Empire获取域控权限
-- https://github.com/EmpireProject/Empire-GUI    //empire的nodejs界面
-- https://github.com/interference-security/empire-web    //empire的web界面
+- https://github.com    //empire的web界面
 - https://github.com/byt3bl33d3r/DeathStar    //Py3。调用Empire RESTful API 自动化获取域管权限的
-- https://byt3bl33d3r.github.io/    //automating-the-empire-with-the-death-star-getting-domain-admin-with-a-push-of-a-button.html    //DeathStar教程
+- https://byt3bl33d3r.github.io/automating-the-empire-with-the-death-star-getting-domain-admin-with-a-push-of-a-button.html    //DeathStar教程
 - https://github.com/infosecn1nja/e2modrewrite    //用于将Empire配置文件转换为Apache modrewrite脚本
-## cobaltstrike拓展插件相关工具
+## Cobaltstrike拓展插件相关工具
 - https://bbs.ichunqiu.com/thread-53015-1-1.html    //[思路/技术] Cobaltstrike系列教程(十)安装扩展
-- https://github.com/verctor/CS_xor64    //Java。生成cobaltstrike破解版所需的‘xor64.bin’
+- https://github.com/verctor/CS_xor64    //Java。生成cobaltstrike破解版所需的```xor64.bin```
 - https://github.com/Mr-Un1k0d3r/SCT-obfuscator    //Cobalt Strike SCT有效载荷混淆器
-- https://github.com/Ridter/CS_Chinese_support/    //cs3.0传输信息的汉化插件
+- https://github.com/Ridter/CS_Chinese_support/    //Cobalt Strike3.0传输信息的汉化插件
 - https://github.com/pxss/navicatpwd    //Cobalt Strike Navicate解密脚本
 - https://blog.csdn.net/qq_27446553/article/details/79380021    //邮件上线提醒。
-- https://github.com/rvrsh3ll/CPLResourceRunner    //Py。提取beacon.bin文件的shellcode
-- https://github.com/killswitch-GUI/CobaltStrike-ToolKit    //AD域控利用脚本集
+- https://github.com/rvrsh3ll/CPLResourceRunner    //Py。提取`beacon.bin`文件的shellcode。
+- https://github.com/whickey-r7/grab_beacon_config    //NSE。nmap扫描CS后门beacon
 ### cobalt strike插件集合
+- https://github.com/harleyQu1nn/AggressorScripts/    //脚本类型介绍，![Alt text](./wiki_CobaltstrikeImage/BlueScreenOfJeffAggressorScripts.png)
 - https://www.cobaltstrike.com/aggressor-script/index.html    //脱离MSF之后的Aggressor Script 成为了开源脚本引擎 Cortana 的接班人
 - https://github.com/dcsync/pycobalt    //Py3。Python API for Cobalt Strike
 - https://pingmaoer.github.io/2020/06/24/CobaltStrike二次开发环境准备/    //RedCore红队学院CSTips
 - https://github.com/rsmudge/cortana-scripts    //Java。作者用于cs2.x与armitage的可拓展插件，cs3.x后为AggressorScripts。
 - https://github.com/FortyNorthSecurity/AggressorAssessor    //cs3.x自动化攻击脚本集合
 - https://mp.weixin.qq.com/s/CEI1XYkq2PZmYsP0DRU7jg    //公众号：使用Aggressor脚本雕饰Cobalt Strike
-- https://github.com/harleyQu1nn/AggressorScripts/    //脚本类型介绍，![Alt text](./wiki_CobaltstrikeImage/BlueScreenOfJeffAggressorScripts.png)
 - https://github.com/Al1ex/CSPlugins    //Cobaltstrike第三方插件
 ### cobaltstrike痕迹清理
 - https://github.com/QAX-A-Team/EventLogMaster    //RDP日志取证&清除。
+### cobaltstrike信息搜集
+- https://github.com/outflanknl/Ps-Tools    //cobaltstrike插件。高级进程监控组件。goodjob。
 ### cobaltstrike加密通讯
 - https://github.com/mdsecactivebreach/CACTUSTORCH    //CDN域前置隐匿技术
+- https://xz.aliyun.com/t/5728/    //反溯源-cs和msf域名前置上线。公众号:DNS上线CS(反溯源);--
 - https://github.com/search?l=Batchfile&o=desc&q=signtool+sign+pfx&s=indexed&type=Code    //使用第三方证书签名
 - https://github.com/Und3rf10w/external_c2_framework    //Py。Cobalt Strike's External C2构造CS的通讯通道。
 - https://www.cobaltstrike.com/help-malleable-c2    //Malleable C2 Profiles，配置C2-profile文件生成个人cobaltstrike.store文件绕过流量检测
@@ -129,16 +132,15 @@
 - https://github.com/threatexpress/cs2modrewrite    //用于将Cobalt Strike配置文件转换为mod_rewrite脚本的工具
 - https://github.com/Mr-Un1k0d3r/CatMyFish    //搜索分类域，为Cobalt Strike beacon C&C设置白名单域
 ### cobaltstrike攻击拓展
-- https://gitee.com/mirrors_trending/CrossC2    //cobaltstrike插件。生成CobaltStrike的跨平台beacon。goodjob。G:/gloxec/CrossC2;--
+- https://github.com/killswitch-GUI/CobaltStrike-ToolKit    //AD域控利用脚本集。
+- https://github.com/gloxec/CrossC2/tree/master/src    //cobaltstrike插件。生成CobaltStrike的跨平台beacon。goodjob。G:/mirrors_trending/CrossC;--
 - https://github.com/darkr4y/geacon    //Go。OSX、Linux系统beacon上线。goodjob。
-- https://github.com/DeEpinGh0st/Erebus    //权限维持、横向拓展、本地提权、痕迹清理
-- https://github.com/pandasec888/taowu-cobalt-strike    //国产梼杌。testjob。
-- https://xz.aliyun.com/t/5728/    //反溯源-cs和msf域名前置上线。公众号:DNS上线CS(反溯源);--
+- https://github.com/DeEpinGh0st/Erebus    //权限维持、横向拓展、本地提权、痕迹清理。G:/pandasec888/taowu-cobalt-strike //梼杌;--
 - https://github.com/Rvn0xsy/Cobaltstrike-atexec    //C++。利用Windows远程访问工具（WMIEXEC,PSEXEC,SMBEXEC, ATEXEC）其一的任务计划进行横向，需要与135端口、445端口进行通信。
 - https://github.com/m0ngo0se/Peinject_dll    //使用shellexecute函数感染正常文件PE。testjob。
 ### cobaltstrike漏洞利用
 - https://github.com/phink-team/Cobaltstrike-MS17-010    //cobaltstrike ms17-010（win7 x64 and win2008 r2）等插件
-- https://github.com/rsmudge/ElevateKit/    //PS。cna插件，CS利用第三方模块提权
+- https://github.com/rsmudge/ElevateKit/    //PS。CS利用第三方模块提权。cna插件。
 - https://github.com/Rvn0xsy/CVE_2020_0796_CNA    //SMBv3 LPE Exploit
 - https://github.com/rxwx/spoolsystem    //利用漏洞欺骗打印机进行提权
 - https://github.com/dtmsecurity/bof_helper    //Py3。BOF编写辅助器。
@@ -146,4 +148,4 @@
 - https://github.com/AntSword-Store/    //中国蚁剑插件市场
 - https://github.com/yzddmr6/as_webshell_venom    //js。免杀webshell无限生成工具蚁剑版
 - https://github.com/Ch1ngg/CaidaoMitmProxy    //Py3。基于HTTP代理中转菜刀过WAF,基于菜刀20160622版本修改和测试。
-- https://github.com/ekgg/Caidao-AES-Version    //Burp插件.用AES算法透明加密菜刀的http数据流
+- https://github.com/ekgg/Caidao-AES-Version    //Burp插件。用AES算法透明加密菜刀的http数据流

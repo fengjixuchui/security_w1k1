@@ -28,8 +28,6 @@
 - https://github.com/cdk8s/tkey    //Java。Token Key 以 OAuth 2.0 标准为接口设计原则的单点登录系统（SSO）
 ## 系统管理
 - https://docs.microsoft.com/zh-cn/sysinternals/    //微软系统管理组件套，autorun（自启动）、Process Explorer（进程管理定位加强）、procmon、procdump、sqldumper（监控应用程序CPU异常动向, 异常时生成crash dump文件）、Process Monitor。G:/microsoft/ProcDump-for-Linux;--
-- https://github.com/outflanknl/Ps-Tools    //高级进程监控组件，cobaltstrike插件。goodjob。
-- http://www.nirsoft.net/    //Windows工具集，密码恢复、网络监控、密码抓取、office全家桶。
 - https://bitsum.com/    //系统优化工具，主要功能是基于其特别的算法动态调整各个进程优先级以实现为系统减负的目的，可用来监视进程动作。
 - https://www.crystalidea.com/uninstall-tool    //Windows卸载，附带软件安装跟踪。P:/CCleaner;--
 - http://emptyloop.com/unlocker/    //右键扩充工具，通过删除文件和程序关联的方式解除文件的占用，在解除占用时不会强制关闭占用文件进程。
@@ -43,7 +41,7 @@
 - http://www.xuetr.com/    //PC Hunter是一个驱动级的系统维护工具，能够查看各种Windows的各类底层系统信息，包括进程、驱动模块、内核、内核钩子、应用层钩子，网络、注册表、文件、启动项、系统杂项、电脑体检等。pchunter。P:/火绒剑系统管理;--
 - https://github.com/mohuihui/antispy    //C,C++。枚举32位系统中隐藏至深的进程、文件、网络连接、内核对象等，并且也可以检测用户态、内核态钩子.
 - https://github.com/draios/sysdig    //C++。系统活动监控，捕获和分析应用程序。它具有强大的过滤语言和可自定义的输出，以及可以使用称为chisels 的Lua脚本扩展的核心功能。goodjob,6k。W:sysdig.com;--
-- https://github.com/osquery/osquery    //C++。Facebook创建的SQL驱动操作系统检测和分析工具，支持像SQL语句一样查询系统的各项指标，如运行进程/加载内核模块/网络连接/浏览器插件/硬件事件/文件哈希等。‘osquery.io’。14k。
+- https://github.com/osquery/osquery    //C++。Facebook创建的SQL驱动操作系统检测和分析工具，支持像SQL语句一样查询系统的各项指标，如运行进程/加载内核模块/网络连接/浏览器插件/硬件事件/文件哈希等。```osquery.io```。14k。
 - https://www.portablesoft.org/    //可以Unlock占用文件的进程，查看文件或文件夹被占用的情况，内核模块和驱动的查看管理，进程模块的内存dump等工具
 - https://github.com/processhacker/processhacker    //C。Process hacker 监控系统资源、内存以及模块信息、软件调试，管理进程
 - https://github.com/zodiacon/ProcMonXv2    //C++。Process Monitor Windows内核监控。
@@ -62,10 +60,11 @@
 - https://github.com/grayddq/HIDS    //基于osquery的主机信息监控。
 - https://github.com/ysrc/yulong-hids    //Go。驭龙HIDS入侵检测系统，Agent/Daemon/Server/Web。
 ### EDR终端防护
-- http://techtalk.comodo.com/2020/09/19/open-edr-components/    //开放式EDR组件。techteach。
-- http://edr.sangfor.com.cn/    //深信服。SfAntiBotPro内存检索工具，可以根据输入的字符串快速检索计算机内存，输出包含该字符串的进程信息进行恶意域名检测
+- http://edr.sangfor.com.cn/    //深信服SfAntiBotPro内存检索工具，可以根据输入的字符串快速检索计算机内存，输出包含该字符串的进程信息进行恶意域名检测
 - http://edr.topsec.com.cn/    //天融信EDR终端威胁防御系统。
 - https://labs.360.cn/malwaredefender/    //HIPS (主机入侵防御系统)软件，用户可以自己编写规则来防范病毒、木马的侵害。另外，Malware Defender提供了很多有效的工具来检测和删除已经安装在您的计算机系统中的恶意软件。
+- https://github.com/ComodoSecurity/openedr    //C++。开放式EDR组件。
+- http://techtalk.comodo.com/2020/09/19/open-edr-components/    //开放式EDR组件。techteach。
 - https://github.com/crowdsecurity/crowdsec    //Go。Linux下主机入侵检测，lua模块，nginx反代，一键部署，webGUI。goodjob。
 - https://github.com/DasSecurity-Labs/AoiAWD    //PHP。Linux下CTF AWD轻量级EDR系统，支持flag替换。webgui。goodjob。
 - https://github.com/0Kee-Team/WatchAD    //Py。360 信息安全中心 0kee Team 域安全入侵感知系统，能够及时准确发现高级域渗透活动，检测覆盖内网攻击杀伤链大部分手法。
@@ -154,7 +153,8 @@
 - https://github.com/shramos/polymorph    //支持几乎所有现有协议的实时网络数据包操作框架
 - https://github.com/netsniff-ng/netsniff-ng    //C。a fast zero-copy analyzer Linux网络分析器。pcap捕获和重放工具，trafgen数据包生成压测。
 ### 流量协议解析
-- http://www.colasoft.com.cn/download.php    //科来科来网络分析系统/ping工具/mac地址扫描工具/数据包重放工具/数据包生成工具
+- https://www.netresec.com/?page=Networkminer    ////网络取证分析工具，对比GrassMarlin。通过嗅探或者分析PCAP文件可以侦测到操作系统，主机名和开放的网络端口主机，可解析http 2与TLS加密。P:网络取证与监控caploader 流量捕获;P:polarproxy tls加密流量代理;--
+- http://www.colasoft.com.cn/download.php    //科来网络分析系统，ping/mac地址扫/数据包重放/数据包生成。
 - https://github.com/wireshark/wireshark    //Lua。议解析流量分析还原，可通过Windows变量名“SSLKEYLOGFILE”的变量导出目标网站证书，进行密钥导入到Wireshark流量解析。
 - https://github.com/zeek/zeek    //C++。bro的升级版，主要用于对链路上所有深层次的可疑行为流量进行安全监控，为网络流量分析提供了一个综合平台，特别侧重于语义安全监控。goodjob。
 - https://github.com/brimsec/brim    //JS。大型pcap流量包分析工具，可转换为zeek专有格式，结合wireshark对流量进行分析。goodjob。WebGUI。

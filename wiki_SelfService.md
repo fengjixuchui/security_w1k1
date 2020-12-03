@@ -29,11 +29,8 @@
 ### 图床操作
 - https://thyrsi.com/    //图片上传分享工具
 - https://github.com/aimerforreimu/auxpi    //Go。图床API汇总。
-### 域名操作
-- https://www.freenom.com    //注册免费域名，dns解析
-- https://github.com/luolongfei/freenom    //php。freenom域名自动续期。
 ### 下载操作
-- https://wn.run    //万能命令.自动加载网站脚本，视频解析/文档下载/翻译/快照等。
+- https://wn.run    //万能命令。自动加载网站脚本，视频解析/文档下载/翻译/快照等。
 - http://www.bingdian001.com/    //百度文库冰点下载。
 - https://xdown.org/    //bit下载器，类IDM架构。
 - https://github.com/peterq/pan-light    //GO,JS。BND是基于'BaiduPCS-Go 百度云命令行客户端'的图形界面下载器。G:/b3log/baidu-netdisk-downloaderx;--
@@ -52,17 +49,25 @@
 ## 敏捷办公
 - https://u.tools/    //utools软件插件化万能工具箱，跨平台快捷操作平台。W:getquicker.net;G:/Wox-launcher/Wox;P:/火萤酱火柴;--
 - https://getrolan.com/    //快捷启动。音速启动;Lucy;Lily（集成Recorder Devices for ShareX、OCR图像处理）;--
-- https://cmder.net    //Windows命令行加强版。通过‘/REGISTER ALL’‘user_aliases’配置文件配置快捷键。
-- https://github.com/tmux/tmux    //命令行功能加强工具
-- https://github.com/nvbn/thefuck    //Py。命令行自动补全改错工具
+- https://cmder.net    //Windows命令行加强版。通过```/REGISTER ALL``````user_aliases```配置文件配置快捷键。
+- https://github.com/tmux/tmux    //Linux命令行终端多路复用器。
+- https://github.com/c-bata/go-prompt    //Golang命令行增强库，创建交互式提示命令行。
+- https://github.com/prompt-toolkit/python-prompt-toolkit    //Python命令行增强库，创建交互式提示命令行。
+- https://github.com/nvbn/thefuck    //Py。Python命令行自动补全改错工具。
 ### 文件检索
 - https://github.com/uknowsec/SauronEye-Modify    //C#。Windows下网络驱动器文件关键字检索，支持快速查找目标终端文件并压缩打包上传OSS存储。goodjob。G:/vivami/SauronEye;--
 - https://www.mythicsoft.com    //全文检索工具。FileLocatorPro，类似于SearchMyFiles架构
 - https://www.voidtools.com    //Everything文件和文件夹快速定位。greatjob。W:anytxt.net;--
 ### 思维导图
 - https://www.processon.com/    //拓扑图、流程图，类似Visio。亿图;xmind;
-### 网络服务
-- https://www.dnspod.cn/    //动态域名解析、DDNS服务。花生壳;向日葵;蒲公英域名内网穿透。
+### 网络解析服务
+- https://dynv6.com/    //免费DDNS域名服务。P:小米球Ngrok;G:duckdns.org;G:dynu.com;--
+- https://hsk.oray.com/    //动态域名解析，DDNS服务，域名内网穿透，蒲公英SD-WAN异地组网。W:zerotier.com;--
+### 域名服务
+- https://letsencrypt.org/    //免费证书注册分发机构。
+- https://www.dnspod.cn/    //域名解析注册
+- https://www.freenom.com    //注册免费域名，dns解析。
+- https://github.com/luolongfei/freenom    //php。freenom域名自动续期。
 ## 协同办公
 - https://sadd.io/    //在线操作系统
 - https://github.com/zyx0814/dzzoffice    //Py。在线办公套件
@@ -71,6 +76,7 @@
 - https://www.dell.com/en-us/shop/dell-mobile-connect/ab/dell-mobile-connect/    //电脑控制手机打电话、发短信、接收通知、传输文件等
 - https://www.airdroid.com/    //移动端手机设备控制
 ### 分身登录
+- https://github.com/electerm/electerm    //JS。远程管理工具，类 putty/xshell/mobaxterm 架构。
 - http://www.vuln.cn/tools/ftp    //匿名FTP登录
 - https://github.com/stascorp/rdpwrap    //Pascal。开启异步并发rdp请求服务，3389分身多开。
 ## wiki平台
@@ -105,7 +111,6 @@
 - https://github.com/canton7/SyncTrayzor    //C#。同步网盘syncthing。社区版。G:/syncthing/syncthing;P:/freefilesync.org;P:/filegee;P:/goodsync;--
 - https://blog.csdn.net/qq_39815184/article/details/78215141    //intro。如何利用Syncthing+蒲公英快速实现异地文件同步。
 - https://github.com/haiwen/seafile    //C。私有云网盘同步，速度快，功能少。
-- https://github.com/Layne666/oneindex/    //php。Onedrive Directory Index 默认世纪互联VPS版本，vps使用OneDrive存储。
 ### 云盘存储
 - https://send.firefox.com/    //火狐Free网盘传输。G:/mozilla/send;W:wetransfer.com;W:anonfile.com/;W:filecad.com;W:upload.ee/;--
 - https://cowtransfer.com/    //奶牛快传免费网盘分享。W:wenshushu.cn/;--
@@ -114,14 +119,14 @@
 - https://github.com/uknowsec/SharpOSS    //利用aliyun-oss-csharp-sdk实现内网文件传输。
 ### 云盘搭建
 - https://www.rejetto.com/hfs/    //Delphi。Windows下文件传输HFS (HTTP File Server)，http网盘存储。
-- https://github.com/kgretzky/pwndrop    //基于HTTP and WebDAV的文档、文件、payload共享。
-- https://github.com/ganlvtech/down_52pojie_cn    //PHP。52pojie网盘源码。
+- https://github.com/svenstaro/miniserve    //多功能HTTP and WebDAV的文件共享。G:/kgretzky/pwndrop    //基于。
 - https://github.com/micahflee/onionshare    //PHP。利用onion洋葱服务器的匿名文件共享。
-- https://github.com/filebrowser/filebrowser    //Go。基于Caddy框架的网盘文件管理器。
-- https://github.com/aliyun/oss-browser/    //Js。OSS Browser 提供类似windows资源管理器功能。用户可以很方便的浏览文件，上传下载文件，支持断点续传等。
+- https://github.com/filebrowser/filebrowser    //Go。基于Caddy框架的网盘文件管理器。G:/ganlvtech/down_52pojie_cn;--
+- https://github.com/Layne666/oneindex/    //php。Onedrive Directory Index，默认使用世纪互联VPS进行索引OneDrive存储。G:/qkqpttgf/OneManager-php;--
+- https://github.com/aliyun/oss-browser/    //Js。OSS Browser 提供类似windows资源管理器功能，用户可以很方便的浏览文件，上传下载文件，支持断点续传等。
 ### 文档编辑
 - https://shimo.im/    //石墨笔记协同办公，支持三件套、思维导图、画板，需要在线。P:/腾讯文档 //支持离线，三件套;P:/语雀 //需要在线，支持文档、表格;P:/Google文档 //三件套，需要在线;W:notion.so;--
-- https://github.com/leanote/leanote/    //JS。开源笔记，类似为知笔记、envnote等。
+- https://github.com/leanote/leanote/    //JS。开源笔记，类似为知笔记、envnote等。G:/giuspen/cherrytree;--
 - https://www.ultraedit.com/    //全能文本代码编辑器，同公司UltraCompare内容对比软件。P:/vscode;P:/emeditor;--
 - https://github.com/marktext/marktext/    //js。markdown编辑器
 - https://www.microsoft.com/zh-cn/p/office-lens/    //微软文件扫描识别
@@ -148,10 +153,8 @@
 - https://www.itsk.com/thread-401292-1-1.html    //it天空easysysprep以微软系统准备工具 sysprep.exe 程序为核心， Windows 操作系统封装部署辅助工具。
 - https://www.chuyu.me/zh-Hans/index.html    //DISM++ Dism GUI，系统调试。Github:/Chuyu-Team/Dism-Multi-language;--
 - https://www.sordum.org/    //Windows免费工具，防火墙操作、权限控制、网络诊断等
-- https://github.com/pbatard/rufus    //C。etcher启动盘烧录。W:sourceforge.net/projects/win32diskimager/ //镜像写入;--
 - https://github.com/RoliSoft/WSL-Distribution-Switcher    //Py3。Windows下Linux子系统WSL管理工具
-- https://github.com/electerm/electerm    //JS。远程管理工具，类 putty/xshell/mobaxterm 架构。
-- DWS(Destroy-Windows-10-Spying)    //消除Windows隐私监控。W:wpd.app;G:/crazy-max/WindowsSpyBlocker;--
+- https://wpd.app/    //消除Windows隐私监控。P:DWS(Destroy-Windows-10-Spying);G:/crazy-max/WindowsSpyBlocker;--
 ### 注册机keygen
 - https://github.com/DoubleLabyrinth/MobaXterm-keygen    //Py。putty远程服务管理工具,MobaXterm注册机。G:/github.com/HyperSine/;--
 - https://github.com/DoubleLabyrinth/navicat-keygen    //C。数据库管理工具navicat注册机。G:/github.com/HyperSine/;--
@@ -181,6 +184,7 @@
 ### 字幕素材
 - https://github.com/wxbool/video-srt-windows    //Go。识别视频语音自动生成字幕SRT文件。
 ### 图片素材
+- https://uibundle.com/    //Discover free design assets from 229 independent authors
 - https://www.canva.cn/    //平面图设计制作
 - https://github.com/nagadomi/waifu2x    //Lua。无损放大图片。官网“waifu2x.udp.jp/”。P:/bigjpg.com;--
 - https://www.remove.bg/    //图片背景消除
@@ -192,6 +196,7 @@
 ### 字体素材
 - https://www.hellofont.cn/    //
 ### 文档素材下载
+- https://github.com/ixinzhi/pua-books    //PUA预防套装
 - https://www.cn-ki.net/    //知网/论文期刊检索下载
 - http://sci-hub.tw/    //文献、专利、书籍下载
 - https://github.com/gedoor/MyBookshelf    //Java。安卓app小说阅读器
@@ -204,7 +209,8 @@
 - http://flyonzone.ys168.com/    //飞扬时空
 - https://www.parsevideo.com/    //视频解析
 - https://github.com/soimort/you-get    //Py。视频下载
-- https://github.com//aria2/aria2    //C++。下载器
+- https://github.com//aria2/aria2    //C++。下载器。
+- https://www.pconlife.com/    //Windows组件下载
 ### 框架源码
 - http://down.chinaz.com    //除了源码还有各种工具
 - http://www.mycodes.net    //源码之家，大部分免费

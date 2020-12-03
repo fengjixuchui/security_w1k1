@@ -1,10 +1,11 @@
 ## 代理转发映射穿透
 - https://www.freebuf.com/sectool/249572.html    //正确的上网方式：软路由入门指南。techteach。
 - https://github.com/fatedier/frp    //Golang。用于内网穿透的高性能的反向代理应用，多协议支持，支持点对点穿透，范围端口映射。greatjob,25k。G:;todzhang/lcx/;G:/uknowsec/frpModify //公众号:FRP改造计划;--
+- https://github.com/cnlh/nps    //Go。内网穿透代理服务器。支持tcp、udp流量转发，支持内网http代理、内网socks5代理，同时支持snappy压缩、站点保护、加密传输、多路复用、header修改等。WebGUI,多用户。GOODJOB。
 - https://github.com/inconshreveable/ngrok    //Go。端口转发，正反向代理，内网穿透。17K。
-- https://github.com/cnlh/nps    //Go。内网穿透代理服务器。支持tcp、udp流量转发，支持内网http代理、内网socks5代理，同时支持snappy压缩、站点保护、加密传输、多路复用、header修改等。WebGUI,多用户。
 ### 流量转发代理
-- https://github.com/L-codes/Neo-reGeorg    //Py。‘reDuh’‘reGeorg’的升级版，把内网端口通过http/https隧道转发形成回路。用于目标服务器在内网或做了端口策略的情况下连接目标服务器内部开放端口（提供了php，asp，jsp脚本的正反向代理）。goodjob。G:/SECFORCE/Tunna;G:/securesocketfunneling/ssf;G:/sysdream/ligolo;G:/FunnyWolf/pystinger;--
+- https://github.com/L-codes/Neo-reGeorg    //Py。```reDuh reGeorg```的升级版，把内网端口通过http/https隧道转发形成回路。用于目标服务器在内网或做了端口策略的情况下连接目标服务器内部开放端口（提供了php，asp，jsp脚本的正反向代理）。goodjob。G:/SECFORCE/Tunna;G:/securesocketfunneling/ssf;G:/sysdream/ligolo;G:/FunnyWolf/pystinger;--
+- https://github.com/hayasec/reGeorg-Weblogic    //特殊适配老版本weblogic
 - https://github.com/fbkcs/thunderdns    //Py。将tcp流量通过DNS协议转发，不需要客户端和socket5支持。
 - https://github.com/esrrhs/pingtunnel/    //go。构建icmp隧道转发tcp/udp/sock5流量，端口转发、绕过验证，界面GUI。G:/jamesbarlow/icmptunnel;--
 - https://github.com/blackarrowsec/mssqlproxy    //PY。利用sql server进行内网流量代理。
@@ -15,6 +16,7 @@
 - https://github.com/decoder-it/psportfwd    //PowerShell。无需admin权限进行端口转发。
 - https://github.com/davrodpin/mole    //Go。基于ssh的端口转发。
 ### 端口复用
+- https://github.com/YDHCUI/TcpTunnel    //Py。通过识别不同协议头路由转发到对应的端口服务。goodjob。
 - https://nets.ec/Shellcode/Socket-reuse    //C。套接字重用。
 - https://github.com/earthquake/UniversalDVC    //C++。利用动态虚拟通道注册dll文件，进行rdp服务端口复用
 - https://github.com/cloudflare/mmproxy    //C。在负载均衡HAProxy代理的基础上支持proxy-protocol协议，可以传递客户端TCP协议的真实IP。配合Netsh、Iptables实现端口复用。
@@ -29,19 +31,18 @@
 ## Cross超越边界
 - https://github.com/bannedbook/fanqiang/wiki    //cross汇总
 - https://github.com/ToyoDAdoubi/doubi    //各种常用一键脚本。G:/Nyr/openvpn-install;G:/quericy/one-key-ikev2-vpn;G:/teddysun/shadowsocks_install;G:/teddysun/across;--
-- https://github.com/netchx/Netch    //C#。类似于sockscap64通过进程选择代，通过虚拟网卡转为类VPN全局代理，需要‘.NetFramework4.8’。welljob。W:ccproxy;W:SSTAP;W:proxifier;--
+- https://github.com/netchx/Netch    //C#。类似于sockscap64通过进程选择代，通过虚拟网卡转为类VPN全局代理，需要```.NetFramework4.8```。welljob。W:ccproxy;W:SSTAP;W:proxifier;--
 - https://github.com/txthinking/brook    //Go。支持Linux/MacOS/Windows/Android/iOS的代理与vpn。
 - https://github.com/Ccapton/brook-web    //brook程序服务端Web后台管理服务器（Linux\MacOS），基于python、flask、flask-restful。
 - https://github.com/Ccapton/brook-ok    //Bash。Brook一键安装脚本
 - https://github.com/p4gefau1t/trojan-go    //go。支持自动证书申请/多路复用/路由功能/CDN中转，多平台，无依赖。G:/gwuhaolin/lightsocks;--
 - https://github.com/Umbrellazc/BypassCampusNet    //校园网防断网，UDP 53 免流上网。
-- https://github.com/ntkernel/lantern    //蓝灯unlimited-landeng-for-win，无限流量蓝灯。W:psiphon3.com;W:mono.sh //飞机场。mymonocloud;W:windscribe.com;W:hide.me;--
-- https://ding-doc.dingtalk.com/doc#/kn6zg7/hb7000    //钉钉内网穿透。G:/open-dingtalk/pierced--
+- https://github.com/ntkernel/lantern    //蓝灯unlimited-landeng-for-win无限流量蓝灯。W:psiphon3.com;W:mono.sh //飞机场mymonocloud;W:windscribe.com;W:hide.me;--
+- https://ding-doc.dingtalk.com/doc#/kn6zg7/hb7000    //钉钉内网穿透。G:/open-dingtalk/pierced;--
 ### Shadowsocks代理
 - https://github.com/guyingbo/shadowproxy    //ss/socks5/http//https 等多种网络代理
 - https://github.com/ssrpanel/SSRPanel    //ss\ssr\v2ray用户分布式管理
-- https://github.com/Ahref-Group/SS-Panel-smarty-Edition    //ss用户分布式管理，兑换码功能、商城系统，服务器信息。G:/xuanhuan/ss-panel;G:/shadowsocks/shadowsocks-manager;
-G:/Ehco1996/django-sspanel;G:/leitbogioro/SSR.Go;--
+- https://github.com/Ahref-Group/SS-Panel-smarty-Edition    //ss用户分布式管理，兑换码功能、商城系统，服务器信息。G:/xuanhuan/ss-panel;G:/shadowsocks/shadowsocks-manager;G:/Ehco1996/django-sspanel;G:/leitbogioro/SSR.Go;--
 ### V2ray代理
 - https://github.com/v2ray/v2ray-core    //Go。多协议代理平台，自定义代理工具。G:/2dust/v2rayN;--
 - https://github.com/2dust/v2rayNG    //kotlin。V2ray安卓客户端。BifrostV;--
@@ -51,11 +52,11 @@ G:/Ehco1996/django-sspanel;G:/leitbogioro/SSR.Go;--
 - https://github.com/selierlin/Share-SSR-V2ray/blob/master/1-share-ssr-v2ray.md    //免费飞机
 ### Cross自组网
 - https://github.com/proxycannon/proxycannon-ng    //Shell。从云端获取IP节点流量，构建Tor洋葱私人网络，形成僵尸网络组建。
-- http://www.vpngate.net    //日本国立筑波大学云局域网。SoftEther开源、跨平台、多重协议的虚拟专用网方案
+- http://www.vpngate.net    //日本国立筑波大学开源云局域网SoftEther，跨平台、多重协议的虚拟专用网方案。
 - https://github.com/slackhq/nebula    //GO。slack采用p2p自组网。goodjob。P:/红蓝对抗之组一个安全的网;--
-- https://github.com/zerotier    //C++。网络虚拟化平台云自组网
-- https://www.wireguard.com/install/    //新一代跨平台npv协议。G:/angristan/wireguard-install;--
-- https://www.radmin-vpn.cn/    远程组网服务。
+- https://github.com/zerotier    //C++。网络虚拟化平台云自组网。
+- https://www.wireguard.com/install/    //跨平台VPN协议，一键组网切换。G:/angristan/wireguard-install;--
+- https://www.radmin-vpn.cn/    //远程组网服务。
 - https://github.com/microsoft/SDN    //PS。此存储库包括脚本，模板和示例交换机配置，以帮助管理员部署Windows Server 2016软件定义网络（SDN）堆栈并将其连接到其现有网络拓扑。
 - https://feisky.gitbooks.io/sdn/    //sdn-handbook SDN网络指南
 ### 单点登录

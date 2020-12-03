@@ -10,6 +10,9 @@
 - https://www.fmz.com/    //发明者量化交易平台
 - http://pirogue.org/2020/06/24/quant/    //区块链。币圈量化交易试水
 ## 编程相关
+### 语言技术栈
+- https://github.com/rust-lang/rust    //静态语言。
+- https://nim-lang.org/    //静态语言。G:/nim-lang/Nim;---
 ### 编程调试
 - https://www.postman.com/    //http调试，一键生成demo代码。W:hookbin.com/;--
 ### 程序功能模块库
@@ -24,7 +27,7 @@
 - https://github.com/visualfc/liteide    //C++。开源golang编辑器，支持交叉编译
 - https://github.com/ricklamers/gridstudio    //PY,JS。类 Jupyter NotebooksJ架构，结合excel与python，进行表格数据可视化展示。1k。goodjob。
 - https://github.com/rjpcomputing/luaforwindows/    //Lua。Windows下的lua编辑器
-### golang开发
+### Golang开发
 - https://github.com/voidint/g    //gvm Golang版本管理控制。需要设置国内镜像源环境变量“G_MIRROR” -> https://golang.google.cn/dl/。
 - https://goproxy.io/zh/    //goroxy，加载国内库源快速。W:goproxy.cn/;--
 - https://books.studygolang.com/gopl-zh/    //GO语言圣经中文版
@@ -32,9 +35,12 @@
 - https://github.com/chai2010/advanced-go-programming-book    //GO语言高级编程
 - https://github.com/Quorafind/golang-developer-roadmap-cn    //Go 开发者的路线图
 - https://github.com/halfrost/LeetCode-Go    //leetcode用go实现
-### python开发
-- https://www.anaconda.com/    //python版本管理控制
-- https://github.com/jackfrued/Python-100-Days 100天精通python
+- https://github.com/netxfly/x-crack    //go。端口扫描爆破工具开发。goodjob。
+### Java开发
+- https://sdkman.io/    //Java jdk版本控制。
+### Python开发
+- https://www.anaconda.com/    //python版本控制。
+- https://github.com/jackfrued/Python-100-Days    //100天精通python。
 - https://github.com/TheAlgorithms/Python    //Py。一是各种算法的基本原理讲解，二是各种算法的代码实现。
 ### Windows开发
 - https://github.com/dotnet/roslyn    //C#。微软开源的C# 编译器。
@@ -42,9 +48,10 @@
 ### 自动化测试
 - https://github.com/AirtestProject/Airtest    //Py。网易Android、iOS跨平台的UI自动化框架
 - https://github.com/sleepybear1113/taobaoVisitingVenues    //js。双十一活动自动化地操作淘宝浏览店铺得喵币脚本 for Androidz。
-- https://github.com/hyb1996/Auto.js    //js。安卓平台上的JavaScript自动化工具
+- https://github.com/hyb1996/Auto.js    //js。安卓平台上的JavaScript自动化工具。
+- https://github.com/microsoft/playwright-python    //Python 自动化依赖库，操作浏览器模拟脚本会自动生成。
 ### 无头浏览器
-- https://github.com/SeleniumHQ/selenium    //Web浏览器自动化测试。
+- https://github.com/SeleniumHQ/selenium    //Web headless浏览器自动化测试。
 - https://github.com/xuyichenmo/selenium-document    //Selenium的中文文档。
 - https://www.chromium.org/    //Chrome内核，无头浏览器。G:/ariya/phantomjs/;W:miniblink.net;--
 - http://appium.io/    //iOS、Android自动化测试。UIAutomation、XCTest、KIF等。
@@ -115,7 +122,7 @@
 - https://github.com/tikazyq/crawlab    //Py3。分布式任务管理爬虫，可做漏洞预警系统设计。
 - https://github.com/zorlan/skycaiji/    //php。全自动蓝天采集器
 - https://github.com/kangvcar/InfoSpider    //Py3。爬虫工具箱，针对使用者所拥有的众多数据源进行数据搜集。
-- https://github.com/chaitin/rad    //xray配套安全扫描浏览器爬虫，带有无头浏览器登录录制。goodjob。G:/0Kee-Team/crawlergo;G:/jaeles-project/gospider;--
+- https://github.com/chaitin/rad    //xray配套Rad爬虫，带有无头浏览器登录录制。goodjob。G:/0Kee-Team/crawlergo;G:/jaeles-project/gospider;--
 ### Web应用框架
 - https://goframe.org/index    //Go。一款模块化、松耦合、生产级的Go应用开发框架
 - https://beego.me    //Go。一个使用 来帮助您Go 的思维构建并开发的 Go 应用程序的开源框架
