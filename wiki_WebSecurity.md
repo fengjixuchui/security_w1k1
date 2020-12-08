@@ -33,8 +33,6 @@
 - https://github.com/cedowens/SwiftBelt/    //Swift。macOSX系统信息搜集。
 - https://github.com/m8r0wn/nullinux    //Py。Linux的内网信息渗透测试工具，可用于通过SMB枚举操作系统信息，域信息，共享，目录和用户。
 - https://github.com/trimstray/otseca    //Linux系统审计工具，可以导出系统配置，生成报表
-- https://github.com/BloodHoundAD/BloodHound    //PS。使用图论进行内网信息域内关系与细节整理，作为DEFCON 24的免费开源工具发布。通过脚本导出域内的session、computer、group、user等信息，入库后进行可视化分析域成员和用用户关系。testjob,3k。
-- https://github.com/vletoux/pingcastle   //Py。AD域信息威胁等级测试。
 - https://github.com/fdiskyou/hunter    //C++。调用 Windows API 对内网信息搜集。
 - https://github.com/skelsec/jackdaw/    //Py。内网信息收集，将域控、域成员信息存储入sqlite数据库，WebGUI。
 - https://github.com/FortyNorthSecurity/EyeWitness    //获取目标网站截图、vnc、rdp服务，尝试获取默认凭证。
@@ -56,6 +54,7 @@
 - https://github.com/Adminisme/ServerScan    //Go。内网横向信息收集的高并发网络扫描、服务探测工具。G:/uknowsec/TailorScan;G:/se55i0n/PortScanner;G:/tengzhangchao/PortScan;--
 ### 资产指纹识别
 - https://github.com/AliasIO/Wappalyzer    //JS。网站指纹识别。资产库，Chrome扩展。5k。G:/l3m0n/whatweb;G:/Lucifer1993/cmsprint;G:/boy-hack/gwhatweb;G:/zerokeeper/WebEye;n4xh4ck5/CMSsc4n;G:/Ms0x0/Dayu;G:/0xbug/Howl;G:/jekyc/wig;G:/tanjiti/FingerPrint;G:/ywolf/F-MiddlewareScan;G:/1N3/Sn1per;--
+- https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具
 - https://github.com/HA71/WhatCMS    //Bash。CMS检测和漏洞利用脚本，基于Whatcms.org API。
 - https://github.com/urbanadventurer/whatweb    //Ruby。web指纹识别。2k,goodjob。G:/Rvn0xsy/FastWhatWebSearch;G:/ggusoft/inforfinder;--
 - https://github.com/s0md3v/Arjun    //Py3。HTTP参数信息挖掘工具。simple。
@@ -166,7 +165,7 @@
 - https://github.com/riusksk/FlashScanner    //flash xss扫描。
 ### XSS漏洞利用平台框架
 - https://github.com/beefproject/beef    //JS,Ruby。BeEF跨平台Web浏览器渗透测试工具
-- https://xss.fbisb.com/    //在线XSS平台,靶场xss练习。W:xsshs.cn;xss.wtf;xsspt.com;xs.ax;
+- https://xss.fbisb.com/    //在线XSS利用平台，xss练习靶场。W:xsshs.cn;xss.wtf;xsspt.com;xs.ax;--
 - https://github.com/firesunCN/BlueLotus_XSSReceiver    //JS,PHP。蓝莲花战队XSS数据接收平台（无SQL版）.GOODJOB.
 - https://github.com/euphrat1ca/XssPowerByTools    //PHP。XSS平台课程设计。simple。
 - https://github.com/AntSwordProject/ant    //Nodejs。蚁逅@1.0，实时上线的 XSS 盲打平台
@@ -238,23 +237,21 @@
 - https://github.com/euphrat1ca/Behinder    //Java6。“冰蝎”动态二进制加密网站管理客户端。rebeyond，会因为服务器端Java版本产生连接报错。
 - https://xz.aliyun.com/t/2744    //Intro。“冰蝎”利用动态二进制加密实现新型一句话木马之Java篇，木马之.NET篇，木马之PHP篇,木马之客户端篇。
 - https://github.com/BeichenDream/Godzilla    //Java。哥斯拉shell管理工具。可插件拓展。
-- https://github.com/shack2/skyscorpion    //OracleJava。天蝎网站管理。可团队协作。
+- https://github.com/shack2/skyscorpion    //OracleJava。天蝎网站管理。团队协作。
 - https://github.com/tengzhangchao/PyCmd    //Py。一句话木马客户端程序。目前支持php、jsp，CS端通信加密
 - https://github.com/xl7dev/WebShell    //webshell收集项目。Github:/tennc/webshell;--
 ### PHP Webshells
 - https://github.com/yzddmr6/webshell-venom    //Py。免杀webshell无限生成工具。1k。
 - https://github.com/k4mpr3t/b4tm4n    //PHP。大马webshell，可以伪造邮件、ddos，bat.php的webshell，初始k4mpr3t
-- https://github.com/dotcppfile/DAws    //PHP。过防火墙webshell，post pass=DAws
-- https://github.com/b374k/b374k    //php。网站管理，默认密码b374k
-- https://github.com/wso-shell/WSO    //PHP。webshell的文件管理，可以伪装为404界面
-- https://github.com/DXkite/freebuf-stream-shell    //PHP。使用流包装器实现WebShell。freebuf介绍。
-- https://github.com/UltimateHackers/nano    //php。一句话，附带py编写的生成器
-- https://github.com/epinna/weevely3    //Py。利用特定的一句话脚本对网站进行管理
-- https://github.com/nil0x42/phpsploit    //Py3。利用特定的一句话脚本对网站进行管理
-- https://github.com/wonderqs/Blade    //Py。利用特定的一句话脚本对网站进行管理
-- https://github.com/anestisb/WeBaCoo    //perl。利用特定的一句话脚本对网站进行管理
+- https://github.com/dotcppfile/DAws    //PHP。过防火墙webshell，`post pass=DAws`
+- https://github.com/b374k/b374k    //php。网站管理`默认密码b374k`
+- https://github.com/wso-shell/WSO    //PHP。伪装为404界面webshell的文件管理
+- https://github.com/DXkite/freebuf-stream-shell    //PHP。使用流包装器实现WebShell。
+- https://github.com/UltimateHackers/nano    //php。一句话py生成器
+- https://github.com/epinna/weevely3    //Py。利用特定的一句话脚本对网站进行管理G:/nil0x42/phpsploit;G:/wonderqs/Blade;G:/anestisb/WeBaCoo;--
 ### Java Webshells
 - https://github.com/rebeyond/memShell    //Java。可写入java web server内存中的无文件webshell。goodjob。G:/ydnzol/memshell;--
 - https://github.com/threedr3am/JSP-Webshells    //jsp webshell 项目收集
+- https://github.com/htchina/openfire-webshell    //openfire上传webshell插件
 ### ASP/X Webshells
 - https://github.com/antonioCoco/SharPyShell    //ASP.NET。webshell for C# web application

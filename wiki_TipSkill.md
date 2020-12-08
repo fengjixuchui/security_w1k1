@@ -9,6 +9,8 @@
 ### 量化交易
 - https://www.fmz.com/    //发明者量化交易平台
 - http://pirogue.org/2020/06/24/quant/    //区块链。币圈量化交易试水
+### 区块矿机
+- https://github.com/xmrig/xmrig    //RandomX，CryptoNight，AstroBWT和Argon2 CPU / GPU矿工
 ## 编程相关
 ### 语言技术栈
 - https://github.com/rust-lang/rust    //静态语言。
@@ -83,23 +85,24 @@
 ### 深度学习
 - https://github.com/PaddlePaddle/book    //C++,Py。百度开源飞桨深度学习框架。
 - https://github.com/wangshub/RL-Stock    //Py3。使用深度学习进行量化交易
-### 数据可视化
+### 可视化开发
 - https://neo4j.com/graphacademy/neo4j-certification/    //Nosql图数据库，neo4j desktop进行数据关联性图展示。P:Bloom;G:/orgs/neo4j;--
 - https://github.com/xflr6/graphviz    //Py。DOT语言创建和呈现图形描述
 - https://github.com/pyqtgraph/pyqtgraph    //Python数据曲线可视化功能库
 - https://cloud.tencent.com/developer/article/1051994    //62款前端数据可视化插件大盘点，图表、图谱、地图、关系图、立体图。
 - https://me.bdp.cn/    //数据图像化在线工具。W:tushuo.baidu.com //Echart图;W:canvas.net;W:infograph.venngage.com;W:freedgo.com //数据库ER关系图--
 - https://clickhouse.tech/    //列式数据库
-### 大数据分析框架
-- https://www.splunk.com/zh-hans_cn/download/splunk-enterprise.html/    //splunk大数据分析。
+- https://github.com/HandyOrg/HandyControl    //WPF控件
+### 大数据分析
+- https://www.splunk.com/zh-hans_cn/download/splunk-enterprise.html/    //splunk大数据分析框架。
 - https://github.com/taosdata/TDengine    //C。物联网大数据平台。对标kafka、Hadoop、splunk数据处理引擎。
-- https://github.com/AlgoSecure/iotmap    //Py。利用neo4j进行物联网设备数据分析
+- https://github.com/AlgoSecure/iotmap    //Py。利用neo4j进行物联网设备数据分析。
 - https://github.com/baidu/bfe    //go。百度百亿流量转发引擎
 - https://github.com/Tencent/wwsearch    //C++。腾讯全文检索引擎，对标ELK。
 - https://github.com/F-Stack/f-stack    //C。腾讯开源基于dpdk的高性能网络框架
-- https://github.com/pentaho/pentaho-kettle    //java。 ETL 工具，纯 Java 编写，绿色无需安装，数据抽取高效稳定(数据迁移工具)。G:/zhaxiaodong9860/kettle-scheduler 调度监控平台;G:/majinju/kettle-manager WEB端管理;
+- https://github.com/pentaho/pentaho-kettle    //java。 ETL 工具，纯 Java 编写，绿色无需安装，数据抽取高效稳定(数据迁移工具)。G:/zhaxiaodong9860/kettle-scheduler 调度监控平台;G:/majinju/kettle-manager WEB端管理;--
 ### 移动端开发
-- https://github.com/sindresorhus/awesome-electron    //js.跨平台应用
+- https://github.com/sindresorhus/awesome-electron    //js。跨平台应用
 ## Web框架
 - http://www.bt.cn    //宝塔网站管理系统
 - https://github.com/litespeedtech    //轻量级高并发web框架，自带waf/管理后台/模板等。类比nginx。W:openlitespeed.org;--
