@@ -153,7 +153,7 @@
 - https://wpd.app/    //消除Windows隐私监控。P:DWS(Destroy-Windows-10-Spying);G:/crazy-max/WindowsSpyBlocker;--
 ### 注册机keygen
 - https://github.com/DoubleLabyrinth/MobaXterm-keygen    //Py。putty远程服务管理工具,MobaXterm注册机。G:/github.com/HyperSine/;--
-- https://github.com/DoubleLabyrinth/navicat-keygen    //C。数据库管理工具navicat注册机。G:/github.com/HyperSine/;--
+- https://github.com/DoubleLabyrinth/navicat-keygen    //C。数据库管理工具Navicat 注册机。G:/dbeaver/dbeaver;G:/github.com/HyperSine/;--
 - https://github.com/DoubleLabyrinth/winrar-keygen    //C++。A keygen for WinRAR注册机。G:/github.com/HyperSine/;--
 - https://github.com/zsdlove/fortify-license-crack    //fortify去除证书校验。
 - https://github.com/zu1k/xray-crack    //Go。xray证书社区高级版生成
@@ -212,7 +212,7 @@
 - https://www.parsevideo.com/    //视频解析
 - https://github.com/soimort/you-get    //Py。视频下载
 - https://github.com//aria2/aria2    //C++。下载器。
-- https://www.pconlife.com/    //Windows组件下载
+- https://www.pconlife.com/    //Windows组件，微软依赖、DLL下载
 ### 框架源码
 - http://down.chinaz.com    //除了源码还有各种工具
 - http://www.mycodes.net    //源码之家，大部分免费

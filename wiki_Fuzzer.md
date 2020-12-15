@@ -37,6 +37,7 @@
 - https://github.com/google/honggfuzz    //C。具有反馈驱动（Feedback-Driven）的持续性软件代码测试。2k。
 - https://github.com/dzzie/COMRaider    //客户端溢出风险测试
 - http://blog.topsec.com.cn/alphafuzzer/    //阿尔法实验室文件模糊测试工具。
+- https://github.com/google/atheris    //python代码模糊测试
 ### Web应用模糊测试
 - https://github.com/xmendez/wfuzz    //Py。Web安全模糊测试工具，owasp常见漏洞，可处理burp所抓请求和响应报文。goodjob,2k。G:/projectdiscovery/nuclei;G:/ffuf/ffuf;--
 - https://github.com/1N3/BlackWidow    //Py。利用爬虫收集目标网站的情报信息并对 OWASP 漏洞进行模糊测试。
@@ -50,6 +51,6 @@
 - https://github.com/cisco-sas/kitty    //Py。针对TCP/IP的模糊测试框架。goodjob。
 - https://kitty.readthedocs.io/en/latest/    //Intro。Python类库kittyfuzzer使用手册
 - https://github.com/cisco-sas/katnip    //Py。kitty框架拓展库。
-- https://paper.seebug.org/772/    //Intro。如何使用 KittyFuzzer 结合 ISF 中的工控协议组件对工控协议进行 Fuzz。
+- https://paper.seebug.org/772/    //techteach。如何使用 KittyFuzzer 结合 ISF 中的工控协议组件对工控协议进行 Fuzz。
 - https://github.com/jtpereyda/boofuzz    //Py。基于OpenRCE/sulley框架二次开发的网络协议fuzz测试。G:/OpenRCE/sulley;G:/aflnet/aflnet;--
 - https://github.com/Cisco-Talos/mutiny-fuzzer    //Py。MikroTik基于pcap包解析的网络协议模糊测试。

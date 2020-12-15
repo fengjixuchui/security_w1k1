@@ -69,11 +69,12 @@
 ### 数据隐秘传输
 - https://github.com/Arno0x/WSC2    //Py。利用web套接字WebSockets进行数据隐蔽传输
 - https://github.com/Arno0x/DNSExfiltrator    //通过DoH利用dns加密请求进行数据泄露传输。
-- https://github.com/Arno0x/ReflectiveDnsExfiltrator    //反射DNS解析隐蔽通道进行数据泄露
+- https://github.com/Arno0x/ReflectiveDnsExfiltrator    //反射DNS解析隐蔽通道进行数据隐蔽通道
 - https://github.com/no0be/DNSlivery    //Py3。基于scapy利用dns协议传输文件，条件简单。
 - https://github.com/TryCatchHCF/Cloakify    //躲避DLP/MLS数据泄露防护系统，突破数据白名单控制，躲避AV检测进行数据盗取
 - https://github.com/sensepost/DET    //使用单个或多个通道同时执行数据取回
-- https://github.com/ytisf/PyExfil    //用于数据取回的Python软件包
+- https://github.com/ytisf/PyExfil    //用于数据取回的Python软件包。
+- https://github.com/christophetd/IPv6teal    //Py。利用ipv6隐蔽隧道传输数据
 ### 邮箱取证
 - https://github.com/RedLectroid/SearchOutlook/    //Outlook运行实例中关键字搜索
 - https://github.com/euphrat1ca/OtherScript/blob/master/coremail_vul_check.sh    //coremail配置文件泄露导致用户导出/资产泄露/邮件伪造发送
