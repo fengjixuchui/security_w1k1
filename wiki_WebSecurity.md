@@ -54,9 +54,9 @@
 - https://github.com/Adminisme/ServerScan    //Go。内网横向信息收集的高并发网络扫描、服务探测工具。G:/uknowsec/TailorScan;G:/se55i0n/PortScanner;G:/tengzhangchao/PortScan;--
 ### 资产指纹识别
 - https://github.com/AliasIO/Wappalyzer    //JS。网站指纹识别。资产库，Chrome扩展。5k。G:/l3m0n/whatweb;G:/Lucifer1993/cmsprint;G:/boy-hack/gwhatweb;G:/zerokeeper/WebEye;n4xh4ck5/CMSsc4n;G:/Ms0x0/Dayu;G:/0xbug/Howl;G:/jekyc/wig;G:/tanjiti/FingerPrint;G:/ywolf/F-MiddlewareScan;G:/1N3/Sn1per;--
-- https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具
-- https://github.com/HA71/WhatCMS    //Bash。CMS检测和漏洞利用脚本，基于Whatcms.org API。
-- https://github.com/urbanadventurer/whatweb    //Ruby。web指纹识别。goodjob。G:/Rvn0xsy/FastWhatWebSearch;G:/ggusoft/inforfinder;--
+- https://github.com/ShiHuang-ESec/EHole    //EHole(棱洞)-红队重点攻击系统指纹探测工具，fofa api。goodjob。
+- https://github.com/HA71/WhatCMS    //Bash。基于Whatcms.org API进行CMS检测和漏洞利用脚本。
+- https://github.com/urbanadventurer/whatweb    //Ruby。Web指纹识别。goodjob。G:/Rvn0xsy/FastWhatWebSearch;G:/ggusoft/inforfinder;--
 - https://github.com/s0md3v/Arjun    //Py3。HTTP参数信息挖掘工具。simple。
 - https://github.com/mozilla/ssh_scan    //服务器ssh配置信息扫描。
 - https://github.com/salesforce/jarm    //Python。识别传输层安全性（TLS）指纹，对具有相同TLS配置服务标记，集成于空间测绘资产标签。goodjob。G:/rbsec/sslscan;--
@@ -168,47 +168,49 @@
 - https://github.com/BlackHole1/WebRtcXSS    //PHP。基于thinkphp框架，利用webrtc进行自动化XSS入侵内网平台
 - https://github.com/samdenty99/injectify    //TS,JS。利用xss在网站执行mitm攻击
 
-### 数据库利用
-- https://github.com/sqlmapproject/sqlmap    //Py。sql注入标杆。GREATJOB,15k。G:/m4ll0k/Atlas //tamper脚本测试;--
+## 数据库利用
+- https://github.com/sqlmapproject/sqlmap    //Py。数据库注入。GREATJOB。G:/m4ll0k/Atlas //tamper脚本测试;--
+- https://github.com/SafeGroceryStore/MDAT    //sql综合利用工具(sqltools)，命令执行、文件管理等功能。goodjob。
 - https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/    //sql注入sheet表
 - https://sqlwiki.netspi.com/    //你要的sql注入知识点都能找到
 - https://github.com/kevins1022/SQLInjectionWiki    //一个专注于聚合和记录各种SQL注入方法的wiki
 - https://sinister.ly/Thread-SQLi-Dumper-v-8-5-crack    //SQLi Dumper基于搜索引擎的自动化注入利用工具。GoodJob
 - https://github.com/ron190/jsql-injection    //Java。SQL注入工具。GOODJOB。
-- https://github.com/shack2/SuperSQLInjectionV1    //C#。安恒航牛的超级SQL注入工具【SSQLInjection】。GOODJOB。
+- https://github.com/shack2/SuperSQLInjectionV1    //C#。超级SQL注入工具【SSQLInjection】。GOODJOB。
 - https://www.52pojie.cn/thread-80225-1-1.html    //Pangolin Professinal Edition 3.2.4.1132 CracKed By Hmily[LCG]。白帽汇NOSEC注入工具。NoUpdate。
 - https://www.52pojie.cn/forum.php?mod=viewthread&tid=103057    //Havij v1.151 Pro CracKed By Hmily[LCG]。印度ITSecTeam注入工具。NoUpdate。
 - https://github.com/Neohapsis/bbqsql    //SQL盲注利用框架
 - https://github.com/m8r0wn/enumdb    //MySQL和MSSQL利用工具后期爆破、搜索数据库并提取敏感信息。
-#### MSSQL数据库利用
+- https://github.com/PaulSec/HQLmap    //Hibernate DAO设计(Data Access Object) HQL注入
+- https://github.com/FSecureLABS/N1QLMap    //N1QL注入工具
+### 数据库利用MSSQL
 - https://www.anquanke.com/post/id/86011    //【技术分享】MSSQL 注入攻击与防御。sql server漏洞利用。
 - https://github.com/NetSPI/PowerUpSQL    //Powershell。的sqlserver测试框架
 - https://github.com/Mayter/mssql-command-tool    //Go。mssql连接工具，sqlserver利用。
 - http://www.4hou.com/system/14950.html    //Intro。利用PowerUpSQL，渗透测试技巧：绕过SQL Server登录触发器限制。
-#### Mysql数据库利用
-- https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI    //mysql注入,bypass的一些心得
+### 数据库利用Mysql
+- https://github.com/aleenzz/MYSQL_SQL_BYPASS_WIKI    //mysql注入 bypass心得
 - https://xz.aliyun.com/t/1491    //Mysql数据库渗透及漏洞利用总结。写shell、udf、mof、注册表、os-shell。
 - https://github.com/missDronio/blindy    //MySQL盲注爆破工具
 - https://github.com/LoRexxar/Feigong    //针对各种情况自由变化的MySQL注入脚本
 - https://github.com/JohnTroony/Blisqy    //Py。用于http header中的时间盲注爆破工具，仅针对MySQL/MariaDB。
 - https://github.com/quadcoreside/QuadCore-Web-SQLi-Injecter-DB-Dumper    //PHP。sql注入辅助，数据脱取。
 - https://github.com/Hadesy2k/sqliv    //Py3。基于搜索引擎的批量SQL注入漏洞扫描器。G:bambish/ScanQLi;--
-#### Oracle数据库利用
+### 数据库利用Oracle
 - https://mp.weixin.qq.com/s/kxgD0yhPIYoYOSihX9mFcw    //公众号：Oracle命令执行小结
 - https://redn3ck.github.io/2018/04/25/Oracle注入-命令执行-Shell反弹/    //Oracle注入 - 命令执行&Shell反弹
 - https://www.iswin.org/2015/06/13/hack-oracle/    //Oracle Sql注入利用方法
 - https://github.com/jas502n/oracleShell    //rebeyond-oracleShell，数据库命令执行
 - https://github.com/quentinhardy/odat    //针对Oracle注入渗透工具
-#### 关系型数据库利用
-- https://github.com/codingo/NoSQLMap    //Py3。针对nosql数据库的注入工具。1k。
-- https://github.com/torque59/Nosql-Exploitation-Framework    //NoSQL扫描/爆破工具
-- https://github.com/se55i0n/DBScanner    //Py3。扫描常见sql、no-sql数据库资产，进行未授权访问和弱口令检测。simple。
-#### MongoDB数据库利用
-- https://github.com/youngyangyang04/NoSQLAttack    //一款针对mongoDB的攻击工具
+### 数据库利用关系型
+- https://github.com/codingo/NoSQLMap    //Py3。针对nosql数据库的注入工具。
+- https://github.com/torque59/Nosql-Exploitation-Framework    //NoSQL数据库扫描/爆破工具
+- https://github.com/se55i0n/DBScanner    //Py3。常见sql、no-sql数据库资产未授权访问、弱口令检测。simple。
+- https://github.com/youngyangyang04/NoSQLAttack    //一款针对mongoDB的攻击工具。G:/Charlie-belmer/nosqli;--
 - https://github.com/jas502n/unauthorized-tools    //Py。用于快速探测MongoDB未授权数据库结构，取第一条内容，并统计数据数量。
 - https://studio3t.com/download    //MongoDB扫描与连接工具
 - https://github.com/stampery/mongoaudit    //MongoDB审计及渗透工具
-#### 云端数据库利用
+### 数据库利用云服务
 - https://github.com/Turr0n/firebase    //firebase云端实时数据库，错误配置利用。
 
 ### 上传漏洞利用

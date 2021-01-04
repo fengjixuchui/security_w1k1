@@ -1,12 +1,13 @@
 # 信息源
-- https://www.wilderssecurity.com/    //国际安全论坛。goodjob。
+- https://www.wilderssecurity.com/    //国际安全论坛。goodjob。W:raidforums.com;--
 - http://blog.nsfocus.net/    //绿盟博客。安全运营；技术方法论；译文分享。goodjob。
-- https://www.sans.org/blog/    //红蓝紫、取证、工业网络、审计、开发 博客。goodjob。
+- https://www.sans.org/blog/    //红蓝紫、取证、工业网络、审计、安全开发。goodjob。
 - https://xz.aliyun.com/    //先知社区。P:freebuf.com;P:t00ls.net;--
-- https://googleprojectzero.blogspot.com    //谷歌博客 Google Project Zero。二进制。
+- https://googleprojectzero.blogspot.com    //谷歌博客 Google Project Zero。二进制安全。
 ## 信息流导航站
 - https://www.anquanke.com/vul    //安全客GitHub安全类目引擎，基于热度、时间，cve漏洞监控。goodjob。
 - https://i.hacking8.com/    //安全信息流。W:wiki.ioin.in;W:xj.hk;W:buaq.net;W:xssav.com;W:osint-labs.org;--
+- http://www.nmd5.com/test/    //技术查阅手册
 ### 信息收藏夹
 - https://github.com/Hack-with-Github/Awesome-Hacking    //GitHub万星推荐：黑客成长技术清单。G:/topics/security;G:/We5ter/Scanners-Box;--
 - https://github.com/DropsOfZut/awesome-security-weixin-official-accounts    //网络安全类公众号推荐。W:wechat.doonsec.com/;--
@@ -216,13 +217,14 @@
 - https://github.com/fireeye/GeoLogonalyzer    //远程身份验证地理位置分析工具，用于区分合法登录和恶意登录。
 - http://mid.weixingmap.com/    //身份证号码查询校验。W:cha.qhdjcbj.com/ 实名验证
 ### 账号密码泄露
+- https://github.com/loseys/Oblivion    //数据泄露监控工具。
+- https://www.exploit-db.com/google-hacking-database    //Google Dork数据泄露
 - https://github.com/ffffffff0x/Dork-Admin    //盘点近年来的数据泄露、供应链污染事件。goodjob。
 - https://haveibeenpwned.com/    //电子邮件账号泄露检测。
 - https://intelx.io/    //账号检测密码泄露。
 - https://ddosecrets.com/data/international/    //blueleaks各个国家的泄露数据。
-- https://raidforums.com/Announcement-Database-Index-CLICK-ME    //密码泄露，资源互换。W:cdn.databases.today;W:www.databases.today;W:hashes.org/leaks.php;W:weleakinfo.com;W:site3.sjk.space;--
+- https://raidforums.com/Announcement-Database-Index-CLICK-ME    //密码泄露、资源互换。W:cdn.databases.today;W:www.databases.today;W:hashes.org/leaks.php;W:weleakinfo.com;W:site3.sjk.space;--
 - http://demo.zeeroq.com/email/    //邮箱密码泄露
-- https://www.exploit-db.com/google-hacking-database    //Google Dork数据泄露
 
 ## Web信息搜集
 - https://www.virustotal.com/    //在线文件、网址、域名、IP检测。包含pdns。W:crt.sh/;W:spyse.com/;W:securitytrails.com/#search;W:dnsdumpster.com/;--
