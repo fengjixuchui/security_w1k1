@@ -3,7 +3,7 @@
 - https://down.52pojie.cn/    //吾爱破解爱盘工具包。W:tool.pediy.com/;--
 - https://www.peerlyst.com/posts/resource-learning-how-to-reverse-malware-a-guide    //恶意软件逆向指南和工具的集合
 - https://github.com/alphaSeclab/awesome-reverse-engineering    //Reverse Engineering Resources About All Platforms(Windows/Linux/macOS/Android/iOS/IoT)3000+逆向资源合集。
-- https://github.com/slimm609/checksec.sh    //bash脚本，用于检查可执行文件的属性。goodjob。
+- https://www.chinapyg.com/forum.php?mod=viewthread&tid=83083    //Baymax Patch Tools（简称 Baymax）Parch补丁生成，。P:keymaker2;--
 ## 反调试检测
 - https://github.com/LloydLabs/wsb-detect    //C。检测是否为Windows沙盒。
 ### 应用服务诊断
@@ -32,13 +32,13 @@
 - https://github.com/Cherrison/CrackMinApp    //C#,Node.js。(反编译微信小程序)一键获取微信小程序源码(傻瓜式操作)。goodjob。
 
 ## 客户端安全
-- http://www.rohitab.com/apimonitor    //客户端C/S架构API监控工具
+- http://www.rohitab.com/apimonitor    //客户端C/S架构API接口监控工具
 - https://github.com/theLSA/hack-cs-tools    //客户端测试工具检查条目checklist。G:/theLSA/CS-checklist;--
 ### RTOS逆向分析
 - https://github.com/PAGalaxyLab/vxhunter    //Py。一个用于VxWorks嵌入式设备分析的工具集，包含固件分析，串口调试，通过IDA Pro 7.x 、Ghidra 9.x 、Radare2 插件脚本对VxWorks设备调试。
 - https://www.rubydoc.info/github/rapid7/metasploit-framework/Msf/Exploit/Remote/WDBRPC    //wdbrpc内存dump
 ### PC端逆向分析
-- https://www.hex-rays.com    //IDA pro反汇编工具。商业版。W:youtu.be/qCQRKLaz2nQ;
+- https://www.hex-rays.com    //IDA pro反汇编工具。商业版。W:youtu.be/qCQRKLaz2nQ;--
 - https://github.com/xrkk/awesome-ida    //IDA Pro有关的资源收集
 - https://github.com/onethawt/idaplugins-list    //IDA Plugins插件集合
 - https://github.com/NationalSecurityAgency/ghidra    //Java。NSA出品的软件逆向动态调试框架Ghidra。类IDA架构。
@@ -52,6 +52,7 @@
 - https://github.com/x64dbg/x64dbg    //C++。Windows调试工具x64dbg/x32dbg。greatjob。34k。W:immunityinc.com //Immunity Debugger;P:/32位汇编分析调试器Ollydbg;G:/horsicq/x64dbg-Plugin-Manager;--
 - https://github.com/ReFirmLabs/binwalk    //Py。固件、二进制、pwn等文件自动化识别与逆向，支持多插件配置。goodjob,5k。
 ### 查脱壳操作
+- https://github.com/slimm609/checksec.sh    //bash。用于检查可执行文件的属性。goodjob。
 - http://www.legendsec.org/1888.html    //pkid查壳工具，APK查壳工具PKID ApkScan-PKID。P:DetectItEasy;--
 - https://github.com/rednaga/APKiD   //Py。查找Android应用程序Yara标识符的封隔器，保护器，混淆器 - PEiD for Android。goodjob。
 - https://github.com/DrizzleRisk/drizzleDumper    //Android脱壳工具。G:/TUnpacker;G:/BUnpacker;G:/halfkiss/ZjDroid;--
@@ -85,12 +86,12 @@
 - https://github.com/deathmarine/Luyten    //Java。java反编译、代码格式化，解决jd的INTERNAL ERROR问题。3k。
 - https://github.com/pxb1988/dex2jar    //Java。android/.dex/.class文件逆向反编译为java代码，dex-tools SNAPSHOT。
 - https://github.com/Col-E/Recaf    //java。java字节码编辑器。
-### 安卓逆向APK分析
+### 安卓逆向
 - https://www.jianshu.com/p/a12d04fc748f    //Android逆向分析大全
-- https://securityoversimplicity.wordpress.com/2017/04/29/android-reversing-part-2-tools/    //
-- https://www.andreafortuna.org/2019/07/18/reverse-engineering-and-penetration-testing-on-android-apps-my-own-list-of-tools/    //
+- https://securityoversimplicity.wordpress.com/2017/04/29/android-reversing-part-2-tools/    //安卓逆向工具
+- https://www.andreafortuna.org/2019/07/18/reverse-engineering-and-penetration-testing-on-android-apps-my-own-list-of-tools/    //安卓应用分析工具
 - https://www.pd521.com    //逆向未来，android逆向菜鸟速参手册完蛋版，AndroidKiller安卓逆向工具。P:/apk改之理ApkIDE;--
-- https://github.com/Surendrajat/APKLab   //vs code apk逆向插件
+- https://github.com/Surendrajat/APKLab   //vs code APK分析插件
 - http://www.gda.wiki:9090/    //Java。全交互式的现代反编译器。G:charles2gan/GDA-android-reversing-Tool;--
 - https://github.com/iBotPeaches/Apktool    //java。Android逆向apk反编译工具.8K.
 - https://github.com/UltimateHackers/Diggy    //Bash。基于apktool反编译后正则匹配从 Apk 文件中提取 URLs 的工具，apkurl。simple

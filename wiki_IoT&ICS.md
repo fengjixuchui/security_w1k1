@@ -78,37 +78,26 @@
 - https://support.automationdirect.com/firmware/binaries.html    //AutomationDirect
 - https://github.com/euphrat1ca/NOE77101_Firmware    //The Schneider Electric Quantum Ethernet Module 140NOE77101 Firmware。
 
-## 物联网协议分析
+## 物联网安全
 - https://github.com/threat9/routersploit    //Py3。类msf物联网漏洞利用框架。goodjob。
 - https://tools.ietf.org/html/rfc793/    //treck tcp/ip协议的rfc文档，JSOF_Ripple20_Technical_Whitepaper_June20（Ripple20:19个0 day漏洞 白皮书）。
 - https://github.com/jiansiting/ripple20-poc    //Py。基于ICMP_MS_SYNC的ripple20 poc。
 - https://github.com/shodan-labs/iotdb    //nmap配合shodan API扫描IoT设备
 - https://github.com/ElevenPaths/HomePWN    //Py。瑞士军刀类型IOT设备安全测试
+- https://github.com/yaseng/iot-security-wiki/    //物联网安全百科。伏宸安全实验
+- https://github.com/rapid7/IoTSeeker    //物联网设备默认密码扫描检测工具
+### MQTT协议分析
+- https://mqttx.app/cn/    //跨平台 MQTT 5.0 客户端工具
 - https://www.anquanke.com/post/id/212335    //物联网安全之MQTT协议安全。P:/post/id/216074 //物联网安全之MQTT渗透实战;--
 - https://github.com/emqx/emqx    //Erlang。分布式 MQTT 消息服务器。W:tools.emqx.io //mqtt在线测试工具;W:mqttfx.jensd.de;G:/thomasnordquist/MQTT-Explorer;--
-- https://github.com/akamai-threat-research/mqtt-pwn    //Py。mqtt协议测试工具。G:/zombiesam/joffrey //MQTT爆破脚本;--
-## 无人机安全
-- https://github.com/mavlink/qgroundcontrol    //无人机地面站软件。Mission Planner ARDUPILOT;--
-- https://github.com/dhondta/dronesploit    //Py3。基于sploitkit无人机测试框架。
-- https://github.com/samyk/skyjack    //Perl。基于aircrack破解无人机无线网络，进行飞机劫持
-- https://github.com/PX4/Firmware    //px4无人机飞控。
-- https://www.freebuf.com/geek/96399.html    //极客DIY：使用树莓派制作一架四轴无人机。
-- https://www.freebuf.com/vuls/248162.html    //智能巡检无人机的一些安全思考
-## 车联网安全
-- https://github.com/autoguard/awesome-vehicle-security-and-safety    //汽车安全paper。
-- https://github.com/jaredthecoder/awesome-vehicle-security    //车辆安全和汽车黑客的资源清单
-- https://www.freebuf.com/articles/terminal/241930.html    //车机的渗透思路与实例分析
-- https://github.com/pasta-auto    //智能汽车测试
-- https://github.com/schutzwerk/CANalyzat0r    //Py。专有汽车协议的安全分析工具包
-- https://github.com/jgamblin/CarHackingTools    //Bash。汽车黑客工具箱，汽车信息调查。
-- https://www.zlg.cn/can/can/product/id/22.html    //周立功USBCAN系列zcanpro/zcantest诊断器。
+- https://github.com/akamai-threat-research/mqtt-pwn    //Py。mqtt渗透测试框架。G:/zombiesam/joffrey //MQTT爆破脚本;--
+
 ## 智能设备安全
-- https://github.com/yaseng/iot-security-wiki/    //物联网安全百科。伏宸安全实验
 - https://github.com/vletoux/SpoolerScanner    //检测 Windows 远程打印机服务是否开启的工具
 - https://github.com/RUB-NDS/PRET    //Py3。打印机攻击框架，利用PostScript，PJL和PCL，捕获或操作打印作业，访问打印机的文件系统和内存，甚至对设备造成物理损坏。2k。W:打印机漏洞研究入门;SmartDeviceMonitor打印机设备监控;--
-- https://github.com/rapid7/IoTSeeker    //物联网设备默认密码扫描检测工具
 - https://mp.weixin.qq.com/s/VCZOR9Bw-8ecIqRysUYxKQ/    //公众号：自助终端设备安全剖析
 - https://mp.weixin.qq.com/s/hKuhz6SZ7tXEHUqla1PsIQ/    //公众号：自助终端机的常见入侵方式
+- https://github.com/SySS-Research/WireBug    //Voice over IP渗透工具
 ### 摄像头安全
 - https://github.com/woj-ciech/kamerka    //Py。调用shodan API将扫描到的摄像头地理位置，与twitter地理显示在地图上
 - https://github.com/IncludeSecurity/RTSPhuzz/    //Py。基于Boofuzz框架针对RTSP服务器的Fuzzer。
@@ -123,23 +112,57 @@
 - https://github.com/Viralmaniar/Passhunt    //Py。simple。用于搜索网络设备Web应用程序等的默认凭证。包含523个厂家的2084组默认密码。
 - https://tools.kali.org/information-gathering/snmp-check    //通过snmp协议采集设备oid信息，网管设备信息。P:snmpwalk;--
 
+## 无人机安全
+- https://github.com/mavlink/qgroundcontrol    //无人机地面站软件。MissionPlanner ARDUPILOT;--
+- https://www.flightgear.org/    //开源无人机仿真平台SITL为支撑，通过FlightGear渲染真实环境模型。
+- https://github.com/robin-shaun/XTDrone    //无人机仿真平台
+- https://github.com/dhondta/dronesploit    //Py3。基于sploitkit无人机测试框架。
+- https://github.com/samyk/skyjack    //Perl。基于aircrack破解无人机无线网络，进行飞机劫持
+- https://github.com/PX4/Firmware    //px4无人机飞控。
+- https://www.freebuf.com/geek/96399.html    //极客DIY：使用树莓派制作一架四轴无人机。
+- https://www.freebuf.com/vuls/248162.html    //智能巡检无人机的一些安全思考。
+## 车联网安全
+- https://github.com/autoguard/awesome-vehicle-security-and-safety    //汽车安全paper。
+- https://github.com/jaredthecoder/awesome-vehicle-security    //车辆安全和汽车黑客的资源清单
+- https://www.freebuf.com/articles/terminal/241930.html    //车机的渗透思路与实例分析
+- https://github.com/pasta-auto    //智能汽车测试
+- https://github.com/schutzwerk/CANalyzat0r    //Py。专有汽车协议的安全分析工具包
+- https://github.com/jgamblin/CarHackingTools    //Bash。汽车黑客工具箱，汽车信息调查。
+- https://www.zlg.cn/can/can/product/id/22.html    //周立功USBCAN系列zcanpro/zcantest诊断器。
+
 ## ICS工业安全
+- https://github.com/ITI/ICS-Security-Tools    //ICS工业安全探索工具。
+- https://github.com/hslatman/awesome-industrial-control-system-security    //Industrial Control System (ICS) security安全集。G:/euphrat1ca/ICSwiki;--
+- http://www.freebuf.com/sectool/174567.html    //工业控制系统（ICS）安全专家必备的测试工具和安全资源。G:/w3h/icsmaster //工匠安全实验室;--
 - http://jzgkchina.com    //剑指工控 工控基础知识。W:linuxscada.info;--
-- https://dale-peterson.com/    //Digital Bond工业安全公司，```s4xevents.com```旗下S4 Events工业安全培训教程。
+- https://dale-peterson.com/    //Digital Bond工业安全公司，`s4xevents.com`旗下S4 Events工业安全培训教程。
 - https://www.freebuf.com/ics-articles    //Freebuf工控分类。P:/author/黄一113530;P:/author/yy0308;P:/author/andiSEC;--
 - https://www.yuque.com/tidesec/ics    //Tide安全团队-工控安全Wiki专题。W:plcscan.org //灯塔实验室;--
-- https://github.com/hslatman/awesome-industrial-control-system-security    //Industrial Control System (ICS) security安全集。G:/euphrat1ca/ICSwiki;--
 - 公众号：【视频-公开课】SCADA系统安全技术—入侵检测    //1分钟 专辑|工业控制系统网络安全。工业安全系列视频。
-### ICS漏洞利用
-- https://github.com/ITI/ICS-Security-Tools    //ICS工业安全探索工具。
-- https://github.com/hslatman/awesome-industrial-control-system-security    //Industrial Control System (ICS) security安全集。G:/ITI/ICS-Security-Tools;G:/euphrat1ca/ICSwiki;--
-- http://www.freebuf.com/sectool/174567.html    //工业控制系统（ICS）安全专家必备的测试工具和安全资源。G:/w3h/icsmaster //工匠安全实验室;--
+### 工控协议利用
+- https://www.freebuf.com/articles/ics-articles/167079.html    //深度解析工控网络流量特点
+- https://www.freebuf.com/articles/ics-articles/218674.html/    //工控安全EthernetIP协议分析。Ethernet/IP协议中间人攻击。
+### ICS 西门子S7利用
+- https://www.freebuf.com/articles/ics-articles/188159.html    //工控安全 | 西门子通信协议S7COMM（Part 1）
+- https://github.com/hslatman/awesome-industrial-control-system-security/blob/master/source/s7-cracker.py    //s7密码爆破
+### ICS Scada利用
+- https://github.com/nezza/scada-stuff    //对SCADA/ICS设备进行逆向与攻击
+- https://github.com/0xICF/SCADAShutdownTool//    //工业控制系统自动化和测试工具，允许安全研究人员和专家测试SCADA安全系统，枚举从属控制器，读取控制器的寄存器值并重写寄存器数据。
+### ICS Modbus利用
+- https://github.com/yanlinlin82/plcscan    //通过TCP/102和TCP/502识别互联网上PLC设备和其他Modbus设备
+- https://github.com/ezelf/modbusKiller    //py。Schneider Dos PLC Modicon via Modbus Injection。CVE-2017-6017。
+- https://github.com/sourceperl/mbtget/    //Perl。Modbus/TCP客户端。
+- https://github.com/0x0mar/smod/    //py2。Modbus渗透测试框架。
+- https://www.freebuf.com/articles/ics-articles/235047.html    //Modbus PLC攻击分析：Smod渗透框架研究
+- https://www.freebuf.com/articles/ics-articles/235586.html/    //Modbus PLC攻击分析：Python和Mbtget读写PLC
+### 工控安全利用
 - https://www.controlthings.io/    //SamuraiSTFU ics kali
 - https://github.com/SadFud/Exploits    //PY/Bash。PWN利用框架 CTFs exploit POCs，工控漏洞POC
 - https://gitlab.com/expliot_framework/expliot    //Py3。工控安全漏洞测试框架
 - https://github.com/dark-lbp/isf    //Py3。基于routersploit框架开发的ISF(Industrial Control System Exploitation Framework)。
 - https://github.com/w3h/isf    //py2。基于NSA工具Fuzzbunch攻击框架开发的工控测试框架。工匠实验室。
 - https://github.com/digitalbond/Basecamp    //针对工业项目Project Basecamp开发的Metasploit模块利用。功能码（0x5a）问题。
+- https://github.com/otoriocyber/CIMPLICITY-Hardening-Tool    //通用电气(General Electric) CIMPLICITY 工控机利用工具。
 ### 工业场景攻防演练
 - https://collaborate.mitre.org/attackics/index.php/Main_Page    //ICS工业安全。ATT&CK for ICS。
 - https://zhuanlan.zhihu.com/p/93070821    //工控CTF技能点学习总结。
@@ -165,23 +188,6 @@
 - https://github.com/HatBoy/Pcap-Analyzer    //py3。可视化的离线pcap数据包分析器。testjob。
 ### ICS入侵检测
 - https://github.com/digitalbond/Quickdraw-Snort    //基于Suricata的类Snort工业入侵检测规则。W:oisf.net;--
-### ICS代理转发远程访问
+### ICS代理转发
 - https://github.com/knownsec/KCon/blob/master/2018/25日/25日No.4-PLC远控-剑.pdf/    //写入西门子FC块端口复用，用于反向代理接管操作设备，工控木马plc远控。
-- http://www.icsmaster.org/archives/ics/690/    //通过Siemens1200 Tsend和Trev模块实现socket代理功能。
-
-## 工控协议
-- https://www.freebuf.com/articles/ics-articles/167079.html    //深度解析工控网络流量特点
-- https://www.freebuf.com/articles/ics-articles/218674.html/    //工控安全EthernetIP协议分析。Ethernet/IP协议中间人攻击。
-### ics 西门子S7安全
-- https://www.freebuf.com/articles/ics-articles/188159.html    //工控安全 | 西门子通信协议S7COMM（Part 1）
-- https://github.com/hslatman/awesome-industrial-control-system-security/blob/master/source/s7-cracker.py    //s7密码爆破
-### ics scada安全
-- https://github.com/nezza/scada-stuff    //对SCADA/ICS设备进行逆向与攻击
-- https://github.com/0xICF/SCADAShutdownTool//    //工业控制系统自动化和测试工具，允许安全研究人员和专家测试SCADA安全系统，枚举从属控制器，读取控制器的寄存器值并重写寄存器数据。
-### ics modbus安全
-- https://github.com/yanlinlin82/plcscan    //通过TCP/102和TCP/502识别互联网上PLC设备和其他Modbus设备
-- https://github.com/ezelf/modbusKiller    //py。Schneider Dos PLC Modicon via Modbus Injection。CVE-2017-6017。
-- https://github.com/sourceperl/mbtget/    //Perl。Modbus/TCP客户端。
-- https://github.com/0x0mar/smod/    //py2。Modbus渗透测试框架。
-- https://www.freebuf.com/articles/ics-articles/235047.html    //Modbus PLC攻击分析：Smod渗透框架研究
-- https://www.freebuf.com/articles/ics-articles/235586.html/    //Modbus PLC攻击分析：Python和Mbtget读写PLC
+- http://www.icsmaster.org/archives/ics/690/    //通过Siemens1200 Tsend和Trev模块实现socket代理，plc远程访问。

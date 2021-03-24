@@ -21,7 +21,7 @@
 - https://www.fuzzysecurity.com/tutorials.html    //fuzzysecurity教程。"*egghunter"。
 ## 模糊测试利用
 - https://google.github.io/clusterfuzz/    //谷歌集群模糊测试平台
-- https://github.com/google/AFL    //American Fuzzy Lop符合测试和其无数衍生工具。
+- https://github.com/google/AFL    //American Fuzzy Lop 以代码覆盖率作为变异策略的fuzz，符合测试和其无数衍生工具。
 - http://zeroyu.xyz/2019/05/15/how-to-use-afl-fuzz/    //Intro。AFL使用指南。
 - https://github.com/google/oss-fuzz    //C。谷歌对开源项目的进行免费的模糊测试服务
 - https://github.com/bunzen/pySSDeep    //Py。一个基于模糊哈希（Fuzzy Hashing）算法的工具。G:/glaslos/ssdeep;G:/ssdeep-project/ssdeep;--
@@ -31,8 +31,8 @@
 - https://github.com/mxmssh/drAFL    //C。Linux系统模糊测试。G:/atrosinenko/kbdysch;G:/google/oss-fuzz;--
 - https://github.com/googleprojectzero/winafl    //C。Google Project Zero 基于Windows AFL开发的模糊测试框架。P:阿尔法实验室-AFL漏洞挖掘技术漫谈;--
 ### 固件模糊测试
-- https://github.com/qilingframework/qiling    //Py3。基于Unicorn进行固件模拟Qiling Unicornalf IOT模糊测试。goodjob。
-- https://github.com/zyw-200/FirmAFL    //C。针对iot固件IoT firmware灰盒模糊测试。
+- https://github.com/qilingframework/qiling    //Py3。基于Unicorn进行固件模拟Qiling Unicornalf IOT模糊测试。
+- https://github.com/zyw-200/FirmAFL    //C。针对iot固件IoT firmware灰盒模糊测试，覆盖Firmadyne数据库中90.2%的固件，支持mipsel、mipseb和armel三种CPU架构。welljob。P:p2im;P:Hal-fuzz;--
 - https://github.com/k0keoyo/kDriver-Fuzzer    //C。基于ioctlbf框架编写的驱动漏洞挖掘工具kDriver Fuzzer。
 ### 软件模糊测试
 - https://github.com/google/honggfuzz    //C。具有反馈驱动（Feedback-Driven）的持续性软件代码测试。2k。
@@ -40,7 +40,7 @@
 - http://blog.topsec.com.cn/alphafuzzer/    //阿尔法实验室文件模糊测试工具。
 - https://github.com/google/atheris    //python代码模糊测试
 ### Web应用模糊测试
-- https://github.com/xmendez/wfuzz    //Py。Web安全模糊测试工具，owasp常见漏洞，可处理burp所抓请求和响应报文。goodjob,2k。G:/projectdiscovery/nuclei;G:/ffuf/ffuf;--
+- https://github.com/xmendez/wfuzz    //Py。Web安全模糊测试工具，owasp常见漏洞，可处理burp所抓请求和响应报文。goodjob。G:/ffuf/ffuf;--
 - https://github.com/1N3/BlackWidow    //Py。利用爬虫收集目标网站的情报信息并对 OWASP 漏洞进行模糊测试。
 - https://bbs.ichunqiu.com/thread-24898-1-1.html    //Test404 -HTTP Fuzzer V3.0
 - https://github.com/floyd-fuh/afl-cgi-wrapper    //利用AFL fuzz web CGI
@@ -57,7 +57,14 @@
 - https://github.com/Cisco-Talos/mutiny-fuzzer    //Py。MikroTik基于pcap包解析的网络协议模糊测试。
 
 ## 自动化测试
-- https://github.com/AirtestProject/Airtest    //Py。网易Android、iOS跨平台的UI自动化框架
+- http://bbs.anjian.com/    //按键精灵。G:/taojy123/KeymouseGo;--
+- https://pypi.org/project/pynput/    //python操作键盘库
+- https://github.com/AirtestProject/Airtest    //Py。网易Android、iOS跨平台的UI自动化框架。
 - https://github.com/sleepybear1113/taobaoVisitingVenues    //js。双十一活动自动化地操作淘宝浏览店铺得喵币脚本 for Androidz。
 - https://github.com/hyb1996/Auto.js    //js。安卓平台上的JavaScript自动化工具。
 - https://github.com/microsoft/playwright-python    //Python自动化测试工具，支持JavaScript（TypeScript）、Python、C#和Go语言，支持有头（headful）模式和无头（headless）模式运行。
+### 浏览器模拟
+- https://github.com/SeleniumHQ/selenium    //Web headless无头浏览器自动化测试。
+- https://github.com/xuyichenmo/selenium-document    //Selenium的中文文档。
+- https://www.chromium.org/    //Chrome内核，无头浏览器。G:/ariya/phantomjs/;W:miniblink.net;--
+- http://appium.io/    //iOS、Android自动化测试。UIAutomation、XCTest、KIF等。

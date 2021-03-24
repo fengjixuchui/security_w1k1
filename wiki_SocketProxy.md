@@ -1,18 +1,21 @@
 # 代理映射穿透
 - https://www.freebuf.com/sectool/249572.html    //正确的上网方式：软路由入门指南。techteach。
 - https://github.com/fatedier/frp    //Golang。用于内网穿透的高性能的反向代理应用，多协议支持，支持点对点穿透，范围端口映射。greatjob,25k。G:;todzhang/lcx/;G:/uknowsec/frpModify //公众号:FRP改造计划;--
-- https://github.com/cnlh/nps    //Go。内网穿透代理服务器。支持tcp、udp流量转发，支持内网http代理、内网socks5代理，同时支持snappy压缩、站点保护、加密传输、多路复用、header修改等。WebGUI,多用户。GOODJOB。
-### 流量代理
+- https://github.com/cnlh/nps    //Go。内网穿透代理服务器。支持tcp、udp流量转发，支持内网http代理、内网socks5代理，同时支持snappy压缩、站点保护、加密传输、多路复用、header修改等。WebGUI,多用户。GOODJOB。G:/stealth/psc;--
+## 流量代理
 - https://github.com/litespeedtech    //轻量级高并发web框架，自带waf/管理后台/模板等。类比nginx。W:openlitespeed.org;--
 - http://openresty.org/    //基于Nginx+Lua的高性能 Web 平台
 - https://github.com/goproxy/goproxy    //Golang代理模块。G:/snail007/goproxy;--
-- https://github.com/imWildCat/scylla    //Py3。智能代理池。G:/SpiderClub/haipproxy;G:/chenjiandongx/async-proxy-pool;G:/TideSec/Proxy_Pool;--
 - https://github.com/sergeyfrolov/httpt    //响应TLS来降低代理被识别的几率。
+### 流量代理池
+- https://www.ip12345.net/    //鲸鱼代理 动态IP修改
+- https://github.com/Python3WebSpider/ProxyPool    //Py3。
+- https://github.com/imWildCat/scylla    //Py3。智能代理池。G:/Python3WebSpider/ProxyPool;G:/SpiderClub/haipproxy;G:/chenjiandongx/async-proxy-pool;G:/TideSec/Proxy_Pool;--
 - https://github.com/audibleblink/doxycannon    //Py。使用一个openvpn代理池，为每一个生成docker，当连接某一个vpn后，其它的进行socks5转发做流量分发。
-- https://github.com/realgam3/pymultitor/    //Py。使用多线程Tor代理
+- https://github.com/realgam3/pymultitor/    //Py。使用多线程Tor代理。
 ### 流量转发
 - https://github.com/inconshreveable/ngrok    //Go。端口转发，正反向代理，内网穿透。17K。
-- https://github.com/L-codes/Neo-reGeorg    //Py。```reDuh reGeorg```的升级版，把内网端口通过http/https隧道转发形成回路。用于目标服务器在内网或做了端口策略的情况下连接目标服务器内部开放端口（提供了php，asp，jsp脚本的正反向代理）。goodjob。G:/SECFORCE/Tunna;G:/securesocketfunneling/ssf;G:/sysdream/ligolo;G:/FunnyWolf/pystinger;--
+- https://github.com/L-codes/Neo-reGeorg    //Py。`reDuh reGeorg`的升级版，把内网端口通过http/https隧道转发形成回路。用于目标服务器在内网或做了端口策略的情况下连接目标服务器内部开放端口（提供了php，asp，jsp脚本的正反向代理）。goodjob。G:/sensepost/reGeorg;G:/SECFORCE/Tunna;G:/securesocketfunneling/ssf;G:/sysdream/ligolo;G:/FunnyWolf/pystinger;--
 - https://github.com/hayasec/reGeorg-Weblogic    //特殊适配老版本weblogic
 - https://github.com/fbkcs/thunderdns    //Py。将tcp流量通过DNS协议转发，不需要客户端和socket5支持。
 - https://github.com/esrrhs/pingtunnel    //go。构建icmp隧道转发tcp/udp/sock5流量，端口转发、绕过验证，界面GUI。G:/jamesbarlow/icmptunnel;--
@@ -24,8 +27,9 @@
 - https://github.com/decoder-it/psportfwd    //PowerShell。无需admin权限进行端口转发。
 - https://github.com/davrodpin/mole    //Go。基于ssh的端口转发。
 ### 端口复用
-- https://github.com/YDHCUI/TcpTunnel    //Py。通过识别不同协议头路由转发到对应的端口服务。goodjob。
+- https://github.com/YDHCUI/TcpTunnel    //Py。通过识别不同协议头路由转发到对应的端口服务。goodjob。Knockd敲门复用。
 - https://nets.ec/Shellcode/Socket-reuse    //C。套接字重用。
+- https://mp.weixin.qq.com/s/dSPL4YfvSN8Awo6bKbHPCA     //ShadowMove套接字劫持技术分析，巧妙隐藏与C2的连接
 - https://github.com/earthquake/UniversalDVC    //C++。利用动态虚拟通道注册dll文件，进行rdp服务端口复用
 - https://github.com/cloudflare/mmproxy    //C。在负载均衡HAProxy代理的基础上支持proxy-protocol协议，可以传递客户端TCP协议的真实IP。配合Netsh、Iptables实现端口复用。
 - https://github.com/BeetleChunks/redsails    //PY,C++。利用WinDivert驱动程序与windows内核交互，不更改端口开放状态进行端口复用TCP流量到另一个主机，在目标主机上执行命令且无需创建任何事件日志以及网络连接，可使用powershell。testjob。

@@ -33,7 +33,7 @@
 - https://www.freebuf.com/articles/network/142418.html/    //intro。绕过杀毒软件与主机入侵防御系统对流量的检测。
 - https://green-m.me/2016/11/23/msf-paranoid-mode/    //intro。MSF偏执模式。
 - https://labs.mwrinfosecurity.com/tools/c3/    //C++。红队C2通讯加密框架。
-### 多姿势远程协助
+### 多姿态远程协助
 - https://blog.csdn.net/fly_hps/category_8913900.html    //FLy_鹏程万里【基础篇】-隐匿攻击之 ICMP/DNS/DropBox/Office 365/mail/app/webSocketSiteKeywordDomainApi/PS/WindowsDomWmi/webDav/https/images/JS/Proxy 等。
 - https://github.com/0nise/shell-plus    //Java。基于 RMI 的一款服务器管工具，由服务端、注册中心、客户端进行组成。
 - https://www.cnblogs.com/backlion/p/12272799.html    //MSSQL无落地文件执行Rootkit-WarSQLKit，获取具有"xp_cmdshell”，“ sp_OACreate”，“ sp_OAMethod”的sysadmin权限的帐户。G:/EPICROUTERSS/MSSQL-Fileless-Rootkit-WarSQLKit;--
@@ -63,6 +63,7 @@
 - https://github.com/zerosum0x0/koadic    //Py3。基于JScript/VBScript的大宝剑远控，多版本系统支持内存加载shell。GOODJOB。G:/shelld3v/JSshell/;--
 - https://krober.biz/misc/reverse_shell.php?ip=127.0.0.1&port=8080/    //反弹shell命令生成器，利用pty、socat反弹交互式终端。G:/andrew-d/static-binaries/tree/master/socat;G:/sameera-madushan/Print-My-Shell;--
 - https://github.com/WangYihang/Platypus    //Go。反弹shell管理工具。
+- https://github.com/BenChaliah/Arbitrium-RAT    //Py。Android、Windows、Linux三端远控。P:Arbitrium-WebApp;--
 ### Windows远程协助
 - https://github.com/peterpt/fuzzbunch    //Py3。方程式NSA漏洞利用远控RAT，配有自动化安装脚本与界面GUI。永恒之蓝、永恒浪漫、永恒冠军、双星脉冲。
 - https://github.com/yuanyuanxiang/SimpleRemoter    //C++,C。大灰狼gh0st的远程控制器。
@@ -82,6 +83,7 @@
 - https://github.com/Marten4n6/EvilOSX    //Py。macos/osx远控，多session。testjob。noupdate。G:/creaktive/tsh //Tiny SHell;--
 - https://github.com/tokyoneon/Armor    //Bash。macOS下利用加密Payload反弹Shell。
 - https://github.com/its-a-feature/Apfell    //Py3。macOS与linux下的js后门利用。Web界面GUI。
+- https://github.com/cedowens/MacC2    //mac osx远控
 ### 移动端远程协助
 - https://spynote.us    //商业版。G:/hamzaharoon1314/SpyNote;--
 - http://droidjack.net/    //商业版。
@@ -119,6 +121,7 @@
 - https://github.com/Mr-Un1k0d3r/DKMC/    //Py。Don't kill my cat，将shellcode混淆存储图像中。
 - https://github.com/secretsquirrel/the-backdoor-factory    //PY,C。通过填充无用数据空间劫持DLL程序生成shellcode。NoUpdate。
 - https://github.com/k-fire/shellcode-To-DLL    //C++。shellcode异或加密生成dll，类拿破轮胎DLL注入架构。界面GUI。welljob。G:/qH0sT/Ransomware-Builder-v3.0;G:/aaaddress1/RunPE-In-Memory;--
+- https://research.nccgroup.com/2021/01/23/rift-analysing-a-lazarus-shellcode-execution-method    //Lazarus 利用uuid加载shellcode
 
 ## 文件免杀
 - https://github.com/TideSec/BypassAntiVirus    //TechTeach。公众号：70.远控免杀专题(70)-终结篇。goodjob。
@@ -127,6 +130,7 @@
 - https://github.com/Screetsec/TheFatRat    //Java。msf免杀，支持searchsploit搜索。goodjob。G:/Screetsec/Vegile;G:/abedalqaderswedan1/aswcrypter;G:/MohamedNourTN/Terminator;G:/pasahitz/zirikatu;G:/govolution/avet;G:/GreatSCT/GreatSCT;G:/EgeBalci/HERCULES;--
 - https://github.com/Veil-Framework/Veil    //Py。Msf免杀。goodjob。
 ### 文件打包捆绑
+- wiki_TipSkill.md    //小众语言栈
 - https://github.com/xZero707/Bamcompile    //C。将php文件打包为可执行文件绕过杀软，同理于其它服务文件类型。
 - http://www.f2ko.de/downloads/Bat_To_Exe_Converter.zip    //将bat文件转换为exe二进制文件，可以隐藏窗口。G:/islamadel/bat2exe;G:/tywali/Bat2ExeConverter;G:/Juntalis/win32-bat2exe;--
 - https://github.com/r00t-3xp10it/trojanizer    //将两个可执行文件打包为自解压文件，自解压文件在执行时会执行可执行文件
@@ -144,6 +148,7 @@
 - https://github.com/phra/PEzor    //CobaltStrike插件。基于Mingw-w64的PE文件加壳过杀软。
 ### 文件混淆免杀
 - https://github.com/1y0n/AV_Evasion_Tool    //C#。掩日免杀执行器二进制、shellcode，配合`tdm64-gcc`生成。界面GUI。G:/TheWover/donut;--
+- https://github.com/lengjibo/FourEye    //FourEye 重明免杀工具
 - https://github.com/9aylas/Shortcut-Payload-Generator    //快捷方式(.lnk)文件Payload生成器，AutoIt编写。
 - https://github.com/pasahitz/regsvr32    //C#。使用C#+Empire实现最小体积免杀后门。
 - https://github.com/Cn33liz/StarFighters    //基于DotNetToJScript，利用JavaScript和VBScript执行Empire Launcher。G:/mdsecactivebreach/CACTUSTORCH;--
@@ -232,10 +237,11 @@
 - https://github.com/AlessandroZ/BeRoot    //Py。错误配置提权 Windows/Linux/Mac跨平台。
 ### Windows提权手段
 - http://www.fuzzysecurity.com/tutorials/16.html    //windows平台教程级提权参考文章
+- https://github.com/bitsadmin/wesng    //Py。WES-NG Windows Exploit Suggester Next Generation。基于Windows systeminfo给用户提供目标操作系统可能存在的漏洞列表，并针对这些漏洞给出漏洞利用实施建议，该工具的适用系统范围从Windows XP到Windows 10，还包括Windows Server等服务器/工作站版本。
+- https://github.com/Pwnistry/Windows-Exploit-Suggester-python3    //将目标补丁程序级别与微软漏洞数据库进行比较，以检测目标上可能缺少的补丁程序，并查找可用的Metasploit模块
+- https://github.com/rasta-mouse/Watson    //C#。查找Windows 10 & Server 2016 & 2019未打补丁。G:rasta-mouse/Sherlock;--
 - 公众号：微软不认的“0day”之域内本地提权-烂番茄（Rotten Tomato）
 - https://github.com/DanMcInerney/icebreaker    //处于内网环境但又在AD环境之外，icebreaker将会帮助你获取明文Active Directory凭据（活动目录存储在域控服务器可用于提权）
-- https://github.com/bitsadmin/wesng    //Py。WES-NG，全称为Windows ExploitSuggester - Next Generation，该工具的运行基于Windows systeminfo实用工具的输出，可以给用户提供目标操作系统可能存在的漏洞列表，并针对这些漏洞给出漏洞利用实施建议。该工具的适用系统范围从Windows XP到Windows 10，还包括Windows Server等服务器/工作站版本。1k。
-- https://github.com/rasta-mouse/Watson    //C#。查找Windows 10 & Server 2016 & 2019未打补丁。G:rasta-mouse/Sherlock;--
 ### Linux提权手段
 - https://github.com/rebootuser/LinEnum    //Bash。对Linux系统可提权检测。goodjob,2k。Github:/linuxprivchecker;G:/jondonas/linux-exploit-suggester-2;Github:/belane/linux-soft-exploit-suggester;G:/nilotpalbiswas/Auto-Root-Exploit;G:/WazeHell/PE-Linux;--
 - 内核漏洞、定时任务、Suid文件、Sudo 配置错误、NFS共享、第三方服务

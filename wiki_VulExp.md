@@ -2,12 +2,13 @@
 - twitter搜索“#exploit”、“#0day”、“CVE RCE”    //EXP\POC来源
 - https://sploitus.com/    //公开漏洞搜索引擎,goodjob。
 - https://www.cvebase.com/poc    //漏洞poc统计站。
-- https://github.com/offensive-security/exploitdb    //美国Offensive Security维护的'exploit-db.com'漏洞库，包含利用插件、漏洞场景、渗透测试系统 etc。G:/nomi-sec/PoC-in-GitHub;G:/offensive-security/exploitdb-bin-sploits //已编译漏洞执行文件;G:/HacTF/poc--exp;G:/DrunkenShells/Disclosures;G:/coffeehb/Some-PoC-oR-ExP;G:/hackerhouse-opensource/exploits;--
+- https://github.com/offensive-security/exploitdb    //美国Offensive Security维护的'exploit-db.com'漏洞库，包含利用插件、漏洞场景、渗透测试系统 etc。G:/nomi-sec/PoC-in-GitHub;G:/offensive-security/exploitdb-bin-sploits //已编译漏洞执行文件;G:/HacTF/poc--exp;G:/DrunkenShells/Disclosures;G:/coffeehb/Some-PoC-oR-ExP;G:/hackerhouse-opensource/exploits;G:/Yang0615777/PocList;--
 - https://github.com/vulnersCom/getsploit    //Py3。类似于searchsploit，通过各种数据库的官方接口进行payload的查找。
-- https://github.com/Lcys/Python_PoC    //py3。poc、exp快速编写模板，有众多模范版本
 - https://github.com/BaizeSec/bylibrary    //白阁文库漏洞库。W:wiki.bylibrary.cn;--
 - https://wiki.0-sec.org/    //零组公开漏洞库。W:dream0x01.com/spear-framework;--
 - https://wiki.wgpsec.org/    //狼组安全团队公开知识库，Web安全、CTF、红蓝对抗。
+- https://github.com/Lcys/Python_PoC    //py3。poc、exp快速编写模板，有众多模范版本。
+- https://github.com/qazbnm456/awesome-cve-poc    //2017-2018年漏洞详情。
 - https://srcincite.io/exploits/    //Steven Seeley漏洞利用，Exchange、Microsoft。G:/sourceincite/sourceincite.github.io/tree/master/pocs;--
 - https://github.com/scannells/exploits    //CVE-2020-27194 Linux提权；CVE-2019-8943 wordpress命令执行；CVE-2019-6977 PHP沙盒绕过。
 ## 漏洞市场/SRC/BugBounty
@@ -15,7 +16,7 @@
 - http://www.zerodium.com/    //灰色漏洞交易平台0day市场
 - https://0day.today    //漏洞市场
 ## 漏洞共享平台
-- https://github.com/mai-lang-chai/Middleware-Vulnerability-detection    //CVE、CMS、中间件漏洞检测利用合集 Since 2019-9-15 until Now。goodjob。G:/zhzyker/vulmap;G:/zhzyker/exphub;--
+- https://github.com/mai-lang-chai/Middleware-Vulnerability-detection    //CVE、CMS、中间件漏洞检测利用合集 Since 2019-9-15 until Now。goodjob。G:/zhzyker/exphub;--
 - https://github.com/Mr-xn/Penetration_Testing_POC    //渗透测试相关POC、EXP、脚本、提权、工具。goodjob。
 - https://github.com/Critical-Start/Team-Ares    //CVE-2018-10142;CVE-2018-6961;CVE-2019-7550;CVE-2020-3957;CVE-2020-5902;--
 - https://shuimugan.com    //2016/06/24 13:25之前乌云Drops文章、漏洞公开详情。W:0day.life;W:bugreader.com    //国外厂商公开漏洞详情。
@@ -23,7 +24,7 @@
 - https://hackerone.com/hacktivity    //HACKER ONE公开漏洞详情
 - https://dvpnet.io/lddt    //DVP去中心化漏洞平台公开漏洞详情，区块链应用。
 - https://sec.ly.com/bugs    //同程安全公开漏洞详情，旅途应用。
-- https://zeroday.hitcon.org/vulnerability/    //台湾公开漏洞库。
+- https://zeroday.hitcon.org/vulnerability/    //台湾漏洞公开库。
 - https://github.com/xiangpasama/JDSRC-Small-Classroom    //京东SRC小课堂系列文章，电商应用。
 ## 软硬固应用漏洞
 - https://github.com/k8gege/PhpStudyDoor    //PhpStudy 2016 & 2018 BackDoor Exploit 官网被植入后门
@@ -43,8 +44,7 @@
 - https://github.com/0vercl0k/CVE-2019-9810    //命令执行Firefox on Windows 64 bits.
 - https://github.com/exodusintel/CVE-2019-0808    //JS,C++。CVE-2019-5786 and CVE-2019-0808 Chrome 72.0.3626.119 stable Windows 7 x86 exploit chain.
 - https://quitten.github.io/Firefox/    //利用浏览器(file:///home/user/) Bug使用钓鱼html读取客户端文件
-- https://github.com/evilcos/cookiehacker    //Chrome扩展程序。JavaScript document.cookie / Wireshark Cookie
-- https://github.com/lfzark/cookie-injecting-tools    //Chrome扩展。cookie注入工具包括注入、编辑、添加、删除cookie。
+- https://github.com/evilcos/cookiehacker    //Chrome扩展程序。JavaScript document.cookie / Wireshark Cookie 余弦 包括注入、编辑、添加、删除cookie。G:/lfzark/cookie-injecting-tools;--
 ### 远程应用服务漏洞
 - https://github.com/blacknbunny/libSSH-Authentication-Bypass    //CVE-2018-10933 libssh服务端身份验证绕过。G:/leapsecurity/libssh-scanner;--
 - https://www.jianshu.com/p/726a3791b5b9    //OpenSSH用户枚举漏洞（CVE-2018-15473）
@@ -74,6 +74,7 @@
 - https://github.com/seclab-ucr/tcp_exploit    //利用tcp漏洞使无线路由器产生隐私泄露
 - https://www.heibai.org/post/1395.html    //奇安信技术研究院。D-Link路由器HNAP协议系列漏洞披露。DNS劫持/命令注入/配置泄露/越权访问
 - https://github.com/imjdl/CVE-2020-8515-PoC    //DrayTek路由器VigorSwitch命令执行RCE。
+- https://github.com/yumusb/EgGateWayGetShell_py    //锐捷网络-EWEB网管系统 getshell。
 ### 通讯协议漏洞
 - https://github.com/marcinguy/android712-blueborne    //CVE-2017-0781 安卓蓝牙远程代码执行。
 ### 万物互联漏洞
@@ -142,10 +143,10 @@
 ### Java框架漏洞
 - https://github.com/threedr3am/learnjavabug    //java。Java安全相关的漏洞和技术demo
 - https://github.com/x41sec/slides/blob/master/2019-bsides-stuttgart/YourStackTracesAreLeakingCVEs.pdf    //Java服务异常信息查询敏感信息和漏洞信息列表
-- https://github.com/NickstaDB/BaRMIe    //Java。枚举测试Java RMI（远程调用服务）安全
+- https://github.com/qtc-de/remote-method-guesser    //Java。枚举测试Java RMI（远程调用服务）安全。G:/NickstaDB/BaRMIe;--
 - https://github.com/quentinhardy/jndiat    //Java。Java类名/目录接口/数据库审计检测
 - https://github.com/frohoff/ysoserial    //java。用于生成反序列验证利用载荷。W:jackson-t.ca/runtime-exec-payloads.html/ 转化java加密指令;--
-- https://github.com/Coalfire-Research/java-deserialization-exploits    //java反序列化漏洞收集。ciscoprime/jboss/jenkins/opennms/weblogic/websphere/ysoserial。
+- https://github.com/Coalfire-Research/java-deserialization-exploits    //java反序列化漏洞收集，ciscoprime/jboss/jenkins/opennms/weblogic/websphere/ysoserial。
 - https://github.com/GoSecure/break-fast-serial    //借助DNS解析来检测Java反序列化漏洞工具
 - https://github.com/gquere/CVE-2020-7931    //py。Maven框架插件Artifactory模板ssti利用执行漏洞
 #### WildFly/Jboss中间件漏洞
@@ -235,6 +236,7 @@
 - https://github.com/SecWiki/windows-kernel-exploits    //Windows平台提权漏洞Exp集合。P:/kerberos域控ms14‐068/;G:/51x/WHP;G:/ianxtianxt/win-exp-/;G:/lyshark/Windows-exploits;--
 - https://github.com/Ascotbe/Kernelhub    //Windows 提权漏洞合集，附带编译环境，演示GIF图，漏洞详细信息，可执行文件。goodjob。
 - https://github.com/lawrenceamer/0xsp-Mongoose    //PHP。提权枚举工具包，通过webApi上报信息。
+- https://github.com/KaLendsi/CVE-2021-1732-Exploit    //C++。由函数win32kfull!xxxCreateWi ndowEx 对应用层回调返回数据校验不严导致，本地用户执行漏洞利用程序获取系统权限。
 - https://github.com/dirkjanm/CVE-2020-1472    //NetLogon特权提升漏洞，一键域控提权。配合多个py文件set_empty_pw清空域控密码-secretsdump下载域控哈希secretsdump-restorepassword利用域管hash导出sam数据库原先哈希密码。G:/risksense/zerologon;G:/SecuraBV/CVE-2020-1472;--
 - https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION/    //C++。Windows Background Intelligent Transfer Service (BITS)权限提升。
 - https://github.com/RedCursorSecurityConsulting/CVE-2020-0668/    //C#。基于Service Tracing服务写入RASTAPI文件覆盖提权。
@@ -256,6 +258,7 @@
 - https://github.com/0xbadjuju/Tokenvator    //使用Windows令牌提升权限的工具，提供一个交互命令行界面
 - https://github.com/klionsec/BypassAV-AllThings    //利用aspx一句话配合提权payload提权。
 ### Exchange漏洞利用
+- https://github.com/Udyz/Proxylogon    //Exchange SSRF（CVE-2021-26855）
 - https://github.com/Jumbo-WJB/CVE-2020-0688    //CVE-2020-0688_微软EXCHANGE服务的邮件远程代码执行漏洞。
 - https://github.com/rapid7/metasploit-framework/pull/14126    //Microsoft Exchange Server DLP Policy RCE (CVE-2020-16875)
 - https://www.anquanke.com/post/id/184342    //Exchange渗透测试总结。ruler拓展、ExchangeRelayX中继、mimikatz抓取、PasswordFilter注入劫持、mailsniper抓取、CVE-2018-8581提权、CVE-2019-1040绕过mic检测。W:blog.riskivy.com/exchange-server-in-pentest/;W:evi1cg.me/archives/Exchange_Hack.html;W:paper.seebug.org/833/;--
