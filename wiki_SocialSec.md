@@ -1,10 +1,3 @@
-# 数字水印
-- https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools    //Chrome开发者工具中文手册
-- https://github.com/saucxs/watermark-dom    //基于DOM对象实现的BS系统的水印
-- https://github.com/fire-keeper/BlindWatermark    //py。数字水印盲水印图片保护。
-- https://github.com/rohitrango/automatic-watermark-detection/    //Py。自动检测去水印。
-- https://github.com/thinkst/canarytokens    //Py。重要文件的追踪溯源，信标定位（canarytokens.org/generate#）服务端代码。蜜标。
-
 # 社会工程
 - https://github.com/azizaltuntas/Camelishing    //Py3。社会工程学攻击辅助工具。WEBGUI。
 - https://github.com/threatexpress/domainhunter    //通过bluecoat分类和`Archive.org`历史记录检查过期域名，选择钓鱼和C2域名。
@@ -20,6 +13,10 @@
 - https://github.com/maxchehab/CSS-Keylogging    //Chrome扩展程序。Express服务器利用CSS进行键盘记录。
 ### 社工库查询
 - https://github.com/kallydev/privacy    //数据结构化查询。
+### 虚拟身份
+- https://www.fakenamegenerator.com/    //多国身份信息模拟器
+- https://github.com/gh0stkey/RGPerson    //Py。随机身份生成脚本
+- https://xbeginagain.github.io/generator/    //编号生成器，身份证、营业执照、组织机构代码、统一社会信用代码、手机号、银行卡账号
 
 ## 钓鱼框架
 - https://github.com/bhdresh/SocialEngineeringPayloads    //负责收集用于证书盗窃和鱼叉式网络钓鱼攻击的社交工程技巧和payloads
@@ -120,8 +117,8 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://github.com/NullArray/NetSet    //Bash。终端多路复用器，其会话通过Tor路由，并通过自动安装和配置DNSCrypt-proxy来保护DNS流量。
 
 ## 主动防御
-- https://tom0li.github.io/反制攻击队和防守人员/    //防守反击
-- Bot扫描肉鸡->捕获IP->捕获payload->反向回打
+- https://tom0li.github.io/反制攻击队和防守人员/    //防守反制
+- Bot扫描肉鸡->捕获IP->捕获payload->防守反击
 ### 主动反制识别
 - https://github.com/cnrstar/anti-honeypot    //Chrome插件。检测WEB蜜罐并阻断请求
 - https://github.com/iiiusky/AntiHoneypot-Chrome-simple    //Chrome插件。蜜罐检测，Jsonp漏洞防御。
@@ -136,6 +133,7 @@ W:ns4gov.000webhostapp.com;W:smtp2go.com/;--
 - https://www.anquanke.com/post/id/152339    //JSONP和CORS跨站跨域读取资源的漏洞利用（附带EXP）。JSON Hijacking实战利用多种利用方式。
 - https://github.com/gh0stkey/ahrid    //py。利用jsonp等漏洞通过分析模块对黑客画像溯源。
 - https://github.com/jonasstrehle/supercookie    //利用favicon进行F-Cache读取，构建唯一ID。
+- 使用javascript确认对方是否开burpsuite    //img标签遍历burpsuite的favicon.ico文件，遍历“http:burp”
 ### 攻击反制利用
 - https://medium.com/tenable-techblog/reverse-shell-from-an-openvpn-configuration-file-73fd8b1d38da    //Intro。从OpenVPN配置文件中创建反弹Shell实现用户系统控制。W:freebuf.com/articles/terminal/175862.html;--
 - https://www.exploit-db.com/exploits/38847    /如何优雅的反击扫描你网站的黑客。CVE-2015-4027,Acunetix WVS 10 - Local Privilege Escalation本地提权漏洞。
